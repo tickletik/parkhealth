@@ -1,0 +1,271 @@
+html,body {
+    margin-left:0px;
+    margin-top:0px;
+    
+    /* 
+       extend the height and widht 100%, this allows us
+       to extend the height of the content to the bottom
+       and the width of the header to the right
+    */
+    height:100%;
+    width: 100%;
+}
+
+/*
+   this element is meant to extend the header, it surrounds the top of the menu
+*/
+div.menu-top {
+    background: #d2d2e6;
+    position: absolute;
+    left: 850px;
+    width: 400px;
+    height: 300px;
+}
+
+
+/* header styles */
+
+div.header {
+    color: #494980;
+    background: #d2d2e6;
+    width: 850px;
+    height: 300px;
+}
+
+div.header-staff {
+    color: #494980;
+    background: #d2d2e6;
+    width: 850px;
+    height: 200px;
+}
+
+div.title {
+    font-family: Verdana, sans-serif;    
+    font-size: 30pt;
+    
+    position: absolute;
+    left: 50px;
+    
+    width: 100%;
+
+}
+
+div.subtitle {
+    font-family: Verdana, sans-serif;
+    font-size: 25pt;
+    
+    position: absolute;    
+    left: 70px;
+    top: 80px;
+     
+    width: 100%;
+}
+
+div.subtitle-information {
+    font-family: Verdana, sans-serif;
+    font-size: 16pt;
+
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    
+    width: 100%;
+}
+
+div.subtitle-left {
+    font-family: Verdana, sans-serif;
+    font-size: 16pt;
+
+    position: relative;
+    left: 100px;
+    top: 180px;
+    
+    width: 100%;
+}
+
+
+/* the main styles use for the content.  The font generally applies to everything, but mainly this
+   is really for the department info */
+
+.content {
+    font-family: Palatino Linotype, Palatino, serif;
+    font-size: 12pt;
+    color: #805d40;    
+}
+
+div.content {
+    padding-top: 10px;
+    background: #e6e3cf;
+    width: 850px;
+    height: 100%;
+    position: absolute;
+    top: 300px;
+}
+
+
+
+div.content-item {
+    font-weight: normal;
+    margin: 0px 40px 0px 70px;
+}
+
+p.content {
+    margin: 10px 70px 10px 70px;
+}
+
+div.content-label {
+    margin: 20px 0px 0px 70px;
+    font-weight: bold;
+}
+
+div.content-def {
+    margin: 10px 40px 10px 90px;
+}
+
+ul.content {
+    line-height: 1.5em;
+    list-style-type: none;
+
+    margin: 10px 0px 10px 50px;
+}
+
+div.blk-lbl-lft {
+    font-weight: bold;
+
+    margin: 15px 0px 0px 70px;
+    float: left;
+    width: 340px;
+}
+
+div.blk-lbl-rgt {
+    font-weight: bold;
+
+    margin: 15px 20px 0px 60px;
+    float: left;
+    width: 340px;
+}
+
+ul.blk-def-lft {
+    margin: 0px 0px 0px 70px;
+    list-style-type: none;
+    float: left;
+    width: 340px;
+}
+
+ul.blk-def-rgt {
+    margin: 0px 20px 0px 0px;
+    list-style-type: none;    
+    float: right;
+    width: 340px;
+}    
+
+div.blk-def-lft {
+    margin: 0px 0px 0px 90px;
+    float: left;
+    width: 340px;
+    line-height: 1.2em;
+}   
+
+div.blk-def-rgt {
+    margin: 0px 20px 0px 0px;
+    float: right;
+    width: 340px;
+    line-height: 1.4em;
+}   
+
+/* staff */
+.staff {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 14pt;
+    color: #805d40;    
+}
+
+div.staff {
+    /* the staff section uses a different content block, their's is set up a little higher */
+    padding-top: 10px;
+    background: #e6e3cf;
+    width: 850px;
+    height: 100%;
+    position: absolute;
+    top: 175px;
+}
+
+/* administrative columns */
+a.admin-mail {
+    color: #805d40;
+}
+
+div.admin-contact {
+    font-size: 12pt;
+}
+
+div.admin-left {
+    float:left;
+    width: 340px;
+    margin: 20px 0px 0px 70px;
+}
+
+div.admin-right {
+    float:right;
+    width: 340px;
+    margin: 20px 0px 0px 20px;
+}
+
+.medical{
+    font-family: Verdana;
+    font-size:12pt;
+    font-weight: normal;
+    color: #805d40;     
+}
+
+.medical-name {
+    color: #807d40;
+}
+
+/* this is for the medical staff section */
+table.medical {
+    width: 700px;
+    margin: 10px 70px 10px 70px;
+}
+
+col.medical {
+}
+
+a.medical:link {
+    color: #4444bf;
+}
+
+a.medical:visited {
+    color: #8560a8;
+}
+
+th {
+    text-align: left;
+}
+
+td.medical {
+    text-align: left;
+    height: 27px;
+}   
+
+
+img.center {
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+#menu_content {
+    position: absolute;
+    top: 100px;
+    left: 850px;
+}
+
+
+div.cb {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}

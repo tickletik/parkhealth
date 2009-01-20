@@ -1,0 +1,612 @@
+[
+    {
+        "pk": 7, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "ABSM", 
+            "priority": 6, 
+            "name": "ABSM"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "DDS", 
+            "priority": 2, 
+            "name": "Doctor of Dental Surgery"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "DPM", 
+            "priority": 2, 
+            "name": "Doctor of Podiatric Medicine"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "FAAP", 
+            "priority": 2, 
+            "name": "Fellow of the American Academy of Pediatrics"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "FACA", 
+            "priority": 5, 
+            "name": "FACA"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "FACC", 
+            "priority": 3, 
+            "name": "Fellowship of the American College of Cardiology"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "FACG", 
+            "priority": 3, 
+            "name": "FACG"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "FACP", 
+            "priority": 2, 
+            "name": "Fellow of the American College of Physicians"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "FCCP", 
+            "priority": 4, 
+            "name": "Fellow of the College of Chest Physicians"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "FSCAI", 
+            "priority": 4, 
+            "name": "Fellow of the Society for Cardiovascular Angiography and Interventions"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "LAc", 
+            "priority": 3, 
+            "name": "New York State Licensed Acupuncturist"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "MD", 
+            "priority": 1, 
+            "name": "Doctor of Medicine"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "PC", 
+            "priority": 7, 
+            "name": "PC"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "app_main.degree", 
+        "fields": {
+            "acronym": "PhD", 
+            "priority": 2, 
+            "name": "Doctorate"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "acupuncture", 
+            "name": "Acupuncture"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "cardiology", 
+            "name": "Cardiology"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "dentistry", 
+            "name": "Dentistry"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "family", 
+            "name": "Family Practice"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "gastroenterology", 
+            "name": "Gastroenterology"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "gynecology", 
+            "name": "Gynecology"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "internal", 
+            "name": "Internal Medicine"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "neurology", 
+            "name": "Neurology"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "pediatrics", 
+            "name": "Pediatrics"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "podiatry", 
+            "name": "Podiatry"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "psychology", 
+            "name": "Psychology"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "pulmonary", 
+            "name": "Pulmonary"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "surgery", 
+            "name": "Surgery"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "app_main.specialty", 
+        "fields": {
+            "handle": "urology", 
+            "name": "Urology"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Yakov", 
+            "name_last": "Beim", 
+            "specialty": [
+                1
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                12
+            ], 
+            "has_bio": 1, 
+            "middle_inital": "Y"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Marc", 
+            "name_last": "Burd", 
+            "specialty": [
+                2
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                1
+            ], 
+            "has_bio": 0, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Ira", 
+            "name_last": "Casson", 
+            "specialty": [
+                3
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Sussman", 
+            "name_last": "David", 
+            "specialty": [
+                5
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "G", 
+            "name_last": "Gill", 
+            "specialty": [
+                6
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                7, 
+                3, 
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": "S"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Gerson", 
+            "name_last": "Gomes", 
+            "specialty": [
+                7
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                6, 
+                4, 
+                8, 
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": "I"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Gajanan", 
+            "name_last": "Laud", 
+            "specialty": [
+                5
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Jay", 
+            "name_last": "Lee", 
+            "specialty": [
+                8, 
+                7
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                4, 
+                8, 
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": "Y"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Sami", 
+            "name_last": "Nathan", 
+            "specialty": [
+                9
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Olukayode", 
+            "name_last": "Ojutiku", 
+            "specialty": [
+                7
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                8, 
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": "O"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Himanshu", 
+            "name_last": "Pandya", 
+            "specialty": [
+                7
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Asif", 
+            "name_last": "Rehman", 
+            "specialty": [
+                8
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                4, 
+                8, 
+                9, 
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": "M"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Gunwant", 
+            "name_last": "Singh", 
+            "specialty": [
+                7
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Khalil", 
+            "name_last": "Solaimanzadeh", 
+            "specialty": [
+                10
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Eugene", 
+            "name_last": "Trainin", 
+            "specialty": [
+                11
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                10, 
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Alfred", 
+            "name_last": "Abraham", 
+            "specialty": [
+                11
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 0, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Michael", 
+            "name_last": "Tugetman", 
+            "specialty": [
+                12
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": "A"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Shashi", 
+            "name_last": "Dholakia", 
+            "specialty": [
+                13
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                11
+            ], 
+            "has_bio": 1, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Joseph", 
+            "name_last": "Frager", 
+            "specialty": [
+                5
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                14, 
+                2, 
+                13
+            ], 
+            "has_bio": 1, 
+            "middle_inital": "D"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Genghis", 
+            "name_last": "Kim", 
+            "specialty": [
+                14
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                15
+            ], 
+            "has_bio": 1, 
+            "middle_inital": ""
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "app_main.medicalstaff", 
+        "fields": {
+            "name_first": "Maritza", 
+            "name_last": "Archibald", 
+            "specialty": [
+                11
+            ], 
+            "staff_listing": 1, 
+            "degrees": [
+                2
+            ], 
+            "has_bio": 1, 
+            "middle_inital": ""
+        }
+    }
+]

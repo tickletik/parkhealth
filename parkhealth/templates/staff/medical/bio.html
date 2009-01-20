@@ -1,0 +1,17 @@
+{% extends "main/base.html" %}
+
+{% block menu_select %}5.1{% endblock %}
+{% block menu_flashvars %}
+  flashvars.name_last = "{{ bio.name_last }}";
+  flashvars.name_first = "{{ bio.name_first }}";
+  flashvars.staff = "medical";
+{% endblock %}
+
+{% block subtitle %}<br/>Medical Staff Bio{% endblock %}
+{% block subtitle-information %}
+  <br/>{{ bio }},
+  {% for degree in bio.get_degrees %}
+    {{degree.acronym}}
+    {% if forloop.last %}{% else %}, {% endif %}
+  {% endfor %}
+{% endblock %}

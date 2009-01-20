@@ -1,0 +1,40 @@
+8
+
+dir
+7
+http://django-image-replacement.googlecode.com/svn/trunk/templates/utils
+http://django-image-replacement.googlecode.com/svn
+
+
+
+2008-10-08T14:26:38.097636Z
+6
+luddep
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1c3a7296-93d3-11dd-ada7-8df265a40b68
+
+image_replacement.html
+file
+
+
+
+
+2008-12-15T23:36:41.000000Z
+c74a44cbf7855ffb195a765008178fbf
+2008-10-08T14:26:38.097636Z
+6
+luddep
+

@@ -1,0 +1,41 @@
+{% extends "main/base.html" %}
+
+{% block menu_select %}2.7{% endblock %}
+
+{% block subtitle %}<br/>Internal Medicine{% endblock %}
+{% block subtitle-information %}
+<br/><a href="{{BASE_URL}}/staff/medical/gerson_gomes">Gerson Gomes</a>, MD, FACC, FACP, FACA
+<br/><a href="{{BASE_URL}}/staff/medical/jay_lee">Jay Y. Lee</a>, MD, FACC, FACP, CBNC
+<br/><a href="{{BASE_URL}}/staff/medical/olukayode_ojutiku">Olukayode O. Ojutiku</a>, MD, FACP
+<br/><a href="{{BASE_URL}}/staff/medical/himanshu_pandya">Himanshu Pandya</a>, MD
+<br/><a href="{{BASE_URL}}/staff/medical/gunwat_singh">Gunwant Singh</a>, MD
+{% endblock %}
+
+{% block content %}
+  <p class="content">Internal Medicine is responsible for the general medical problems and total health of adult patients</p>
+
+  <div class="content-label">Problems Routinely Diagnosed and Treated by Internal Medicine Include:</div>
+  <ul class="content">
+    <li>Arthritis</li>
+    <li>Diabetes</li>
+    <li>Heart Problems</li>
+    <li>High Cholesterol</li>
+    <li>Hypertension</li>
+    <li>Stomach Problems</li>
+  </ul>
+
+  <div class="content-label">Patients should also regularly come in for</div>
+  <ul class="content">
+    <li>Yearly Physicals</li>
+    <li>Flu Injections</li>
+  </ul>
+  
+  <div class="content-label">Complete Bloodwork includes</div>
+  <ul class="content">
+    <li>CBC (Complete Blood Count)</li>
+    <li>CMP (Complete Metabolic Profile)</li>
+    <li>Lipid Profile (Serum Cholesterol)</li>
+  </ul>
+
+  <p class="content">HPV vaccination available to prevent cervical cancer</p>
+{% endblock %}

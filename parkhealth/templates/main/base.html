@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Park Health Medical Center</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    
+    <link rel="SHORTCUT ICON" href="{{MEDIA_URL}}/images/logo.ico"/>
+    <link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/styles.css" />
+
+    <link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/sifr.css" />
+    <script type="text/javascript" src="{{MEDIA_URL}}/js/sifr.js" ></script>
+    <script type="text/javascript" src="{{MEDIA_URL}}/js/sifr-config.js"></script>
+
+    <script type="text/javascript" src="{{MEDIA_URL}}/js/swfobject.js" ></script>
+    <script type="text/javascript">
+      var flashvars = {};
+      flashvars.url_base = "{{BASE_URL}}/";
+      flashvars.menu_select = "{% block menu_select %}{% endblock %}";
+
+      {% block menu_flashvars %}
+      flashvars.staff="none";
+      {% endblock %}
+
+      var params = {};
+      var attributes = {};
+      attributes.id = "menu_content";
+      swfobject.embedSWF("{{MEDIA_URL}}/swf/menu.swf", "menuAlternate", "300", "740", "9.0.0", false, flashvars, params, attributes);
+    </script>
+
+  </head>
+  <body>
+    <div class="menu-top">&nbsp;</div>
+    
+    <div class="{%block header-class %}header{% endblock %}">
+      <div class="title">{% block title %}<br/>Park Health Center{% endblock %}</div>
+      <div class="subtitle">{% block subtitle %}{% endblock %}</div>
+      <div class="subtitle-information">{% block subtitle-information %}{% endblock %}</div>
+    </div>
+
+    <div class="{% block content-class %}content{% endblock %}">{% block content %}{% endblock %}</div>
+
+    <div id="menuAlternate">
+      <a href="http://www.adobe.com/go/getflashplayer">
+        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+      </a>
+    </div>
+
+  </body>
+</html>
+        

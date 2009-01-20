@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<component name='Accordion Tree Menu v3'>
+  <data>
+    <main childStyle="level1_style"  >
+      <item title="Home" url="{{BASE_URL}}/" target="_self" />
+      <item title="Departments" childStyle="level2_style">
+        <item title="Acupuncture" url="{{BASE_URL}}/dept/acupuncture/" target="_self" />
+        <item title="Cardiology and Vascular" url="{{BASE_URL}}/dept/cardiology/" target="_self" />
+        <item title="Dentistry" url="{{BASE_URL}}/dept/dentistry/" target="_self" />
+        <item title="Family Physician" url="{{BASE_URL}}/dept/family/" target="_self" />
+        <item title="Gastroentorology" url="{{BASE_URL}}/dept/gastroentorology/" target="_self" />
+        <item title="Gynecology" url="{{BASE_URL}}/dept/gynecology/" target="_self" />
+        <item title="Internal Medicine" url="{{BASE_URL}}/dept/internal/" target="_self" />
+        <item title="Neurology" url="{{BASE_URL}}/dept/neurology/" target="_self" />
+        <item title="Pediatrics" url="{{BASE_URL}}/dept/pediatrics/" target="_self" />
+        <item title="Physical Therapy" url="{{BASE_URL}}/dept/physical/" target="_self" />
+        <item title="Podiatry" url="{{BASE_URL}}/dept/podiatry/" target="_self" />
+        <item title="Psychological Counseling" url="{{BASE_URL}}/dept/psychology/" target="_self" />
+        <item title="Radiology and Imaging" url="{{BASE_URL}}/dept/radiology/" target="_self" />
+        <item title="Surgery" url="{{BASE_URL}}/dept/surgery/" target="_self" />
+        <item title="Urology" url="{{BASE_URL}}/dept/urology/" target="_self" />
+      </item>
+      <item title="Community" childStyle="level2_style">
+        <item title="News"/>
+        <item title="Events / Calendar"/>
+        <item title="Photo Gallery"/>
+      </item>
+      <item title="Insurence"/>
+      <item title="Staff" childStyle="level2_style">
+        <item title="Medical" url="{{BASE_URL}}/staff/medical/" target="_self" childStyle="level3_style">
+          {% if staff %}
+          <item title="{{ bio }}" url="{{BASE_URL}}/staff/medical/{{ bio.handle }}/" target="_self" />
+          {% endif %}
+        </item>
+        <item title="Administrative" url="{{BASE_URL}}/staff/administrative/" target="_self" childStyle="level3_style" />
+      </item>
+      <item title="Careers"/>
+      <item title="Contact"/>
+      <item title="Directions"/>
+      <item title="About Us"/>
+    </main>
+  </data>
+  
+  <styles>
+    <level1_style>
+      <folderCollapsedIconId>ATM_BlueF1_style1_collapsed_icon</folderCollapsedIconId>
+      <folderExpandedIconId>ATM_BlueF1_style1_expanded_icon</folderExpandedIconId>
+      <spacing>5</spacing>
+      <itemNextSpacing>1</itemNextSpacing>
+      <textFormat>
+	<font>Trajan Pro</font>
+	<size>18</size>
+	<color>0xd2d2e6</color>
+	<underline>false</underline>
+      </textFormat>
+      <states>
+	<up>
+	  <mcLinkageId>ATM_BlueF1_style1_false_up</mcLinkageId>
+	</up>
+	<over>
+	  <mcLinkageId>ATM_BlueF1_style1_false_over</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>18</size>
+	    <color>0xe6e4cf</color>
+	    <underline>true</underline>
+	  </textFormat>
+	</over>
+	<down>
+	  <mcLinkageId>ATM_BlueF1_style1_false_down</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>18</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</down>
+	<selected>
+	  <mcLinkageId>ATM_BlueF1_style1_false_selected</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>18</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</selected>
+	<expanded_up>
+	  <mcLinkageId>ATM_BlueF1_style1_true_up</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>18</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</expanded_up>
+	<expanded_over>
+	  <mcLinkageId>ATM_BlueF1_style1_true_over</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>18</size>
+	    <color>0xe6e4cf</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</expanded_over>
+	<expanded_down>
+	  <mcLinkageId>ATM_BlueF1_style1_true_down</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>18</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</expanded_down>
+	<expanded_selected>
+	  <mcLinkageId>ATM_BlueF1_style1_true_selected</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>18</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>	
+	</expanded_selected>
+	<disabled>
+	  <textFormat>
+	    <color>0x666666</color>
+	  </textFormat>
+	  <mcLinkageId>ATM_BlueF1_style1_false_disabled</mcLinkageId>
+	</disabled>
+      </states>
+    </level1_style>
+    
+    <level2_style>
+      <folderCollapsedIconId>ATM_BlueF1_style1_collapsed_icon</folderCollapsedIconId>
+      <folderExpandedIconId>ATM_BlueF1_style1_expanded_icon</folderExpandedIconId>
+      <spacing>3</spacing>
+      <itemNextSpacing>1</itemNextSpacing>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xd2d2e4</color>
+	    <underline>false</underline>
+	  </textFormat>
+      <states>
+	<up>
+	  <mcLinkageId>ATM_BlueF1_style2_false_up</mcLinkageId>
+	</up>
+	<over>
+	  <mcLinkageId>ATM_BlueF1_style2_false_over</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xe6e4cf</color>
+	    <underline>true</underline>
+	  </textFormat>
+	</over>
+	<down>
+	  <mcLinkageId>ATM_BlueF1_style2_false_over</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</down>
+	<selected>
+	  <mcLinkageId>ATM_BlueF1_style2_false_selected</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</selected>
+	<expanded_up>
+	  <mcLinkageId>ATM_BlueF1_style2_true_up</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</expanded_up>
+	<expanded_over>
+	  <mcLinkageId>ATM_BlueF1_style2_true_over</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xe6e4cf</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</expanded_over>
+	<expanded_down>
+	  <mcLinkageId>ATM_BlueF1_style2_true_down</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>
+	</expanded_down>
+	<expanded_selected>
+	  <mcLinkageId>ATM_BlueF1_style2_true_selected</mcLinkageId>
+	  <textFormat>
+	    <font>Trajan Pro</font>
+	    <size>14</size>
+	    <color>0xe6e073</color>
+	    <underline>false</underline>
+	  </textFormat>	
+	</expanded_selected>
+	<disabled>
+	  <mcLinkageId>ATM_BlueF1_style2_false_disabled</mcLinkageId>
+	</disabled>
+      </states>
+    </level2_style>
+    
+    <level3_style>
+      <folderCollapsedIconId>ATM_BlueF1_style1_collapsed_icon</folderCollapsedIconId>
+      <folderExpandedIconId>ATM_BlueF1_style1_expanded_icon</folderExpandedIconId>
+      <spacing>3</spacing>
+      <itemNextSpacing>1</itemNextSpacing>
+      <textFormat>
+	<font>Trajan Pro</font>
+	<size>12</size>
+	<bold>true</bold>
+	<color>0xe6e073</color>
+      </textFormat>
+      <states>
+	<up>
+	  <mcLinkageId>ATM_BlueF1_style3_false_up</mcLinkageId>
+	</up>
+	<over>
+	  <mcLinkageId>ATM_BlueF1_style3_false_over</mcLinkageId>
+	</over>
+	<down>
+	  <mcLinkageId>ATM_BlueF1_style3_false_over</mcLinkageId>
+	</down>
+	<selected>
+	  <mcLinkageId>ATM_BlueF1_style3_false_selected</mcLinkageId>
+	</selected>
+	<expanded_up>
+	  <mcLinkageId>ATM_BlueF1_style3_true_up</mcLinkageId>
+	</expanded_up>
+	<expanded_over>
+	  <mcLinkageId>ATM_BlueF1_style3_true_over</mcLinkageId>
+	</expanded_over>
+	<expanded_down>
+	  <mcLinkageId>ATM_BlueF1_style3_true_down</mcLinkageId>
+	</expanded_down>
+	<expanded_selected>
+	  <mcLinkageId>ATM_BlueF1_style3_true_selected</mcLinkageId>
+	</expanded_selected>
+	<disabled>
+	  <textFormat>
+	    <color>0x666666</color>
+	  </textFormat>
+	  <mcLinkageId>ATM_BlueF1_style3_false_disabled</mcLinkageId>
+	</disabled>
+      </states>
+    </level3_style>
+  </styles>
+</component>

@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}
+
+{% block menu_select %}2.2{% endblock %}
+
+{% block subtitle %}<br/>Cardiology and Vascular{% endblock %}
+{% block subtitle-information %}
+<br/><a href="{{BASE_URL}}/staff/medical/gerson/gomes/">Gerson Gomes</a> MD, FACC, FACP, FACA
+<br/><a href="{{BASE_URL}}/staff/medical/jay/lee/">Jay Y. Lee</a> MD, FACC, FACP, CBNC
+<br/><a href="{{BASE_URL}}/staff/medical/asif/rehman/">Asif Rehman</a> MD, FACC, FACP, FSCAI
+{% endblock %}
+
+{% block content %}
+  <div class="content-label">Non Invasive Cardiology</div>
+  <ul class="content">
+    <li>EKG</li>
+    <li>Echocardiography</li>
+    <li>Halter Monitor</li>
+    <li>Stress Thalium</li>  
+    <li>Nuclear Cardiology</li>
+  </ul>
+  
+  <div class="content-label">Cardiovascular Services</div>
+  <ul class="content">
+    <li>Carotid Duplex</li>
+    <li>Lower Extremity Arterial Doppler</li>
+    <li>Lower Extremity Venous Duplex</li>
+    <li>Aortic Abdominal Aneurysm</li>
+    <li>Renal Artery Stenosis</li>
+  </ul>
+  
+{% endblock %}

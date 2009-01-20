@@ -1,0 +1,1 @@
+<span style="background: url({{ image_path }}) no-repeat;">{{ text }}</span>

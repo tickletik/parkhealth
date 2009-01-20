@@ -1,0 +1,45 @@
+{% extends "main/base.html" %}
+
+{% block menu_select %}2.12{% endblock %}
+
+{% block subtitle %}<br/>Psychological Counseling{% endblock %}
+{% block doctors %}
+<br /><a href="{{BASE_URL}}/staff/medical/marc_burd">Marc Burd, PhD</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="blk-lbl-lft">General Services</div>
+  <div class="blk-lbl-rgt">Psychological Evaluations</div>
+  <div class="cb">&nbsp;</div>
+
+  <ul class="blk-def-lft">
+    <li>Trauma</li>
+    <li>Anxiety</li>
+    <li>Depression</li>
+    <li>Substance Abuse</li>
+    <li>Geriatric Psychotherapy</li>
+  </ul>
+
+  <ul class="blk-def-rgt">
+    <li>Intelligence</li>
+    <li>Personality</li>
+    <li>Neuropsychological</li>
+    <li>Dementia</li>
+    <li>Alzheimers</li>
+    <li>Memory Functions</li>
+    <li>Cognitive Functioning</li>
+    <li>Return to Work</li>
+  </ul>
+
+  <div class="cb">&nbsp;</div>
+  <div class="content-label">Forensic Psychology</div>
+  <ul class="content">
+    <li>Competency Evaluations</li>
+    <li>Post Jail Rehabilitative Therapy</li>
+  </ul>
+
+  <div class="cb">&nbsp;</div>
+  <p class="content">Referrals made to rehabilitation centers, such as NYU RUSK, VESID, FEGS, Center for Autims and Related Diseases, and other appropriate facilities</p>
+  
+{% endblock %}
