@@ -15,11 +15,8 @@
     <script type="text/javascript">
       var flashvars = {};
       flashvars.url_base = "{{BASE_URL}}/";
-      flashvars.menu_select = "{% block menu_select %}{% endblock %}";
-
-      {% block menu_flashvars %}
-      flashvars.staff="none";
-      {% endblock %}
+      flashvars.menu_select = {% block menu_select %}""{% endblock %};
+      flashvars.staff={% block menu_flashvars %}"none"{% endblock %}
 
       var params = {};
       var attributes = {};

@@ -10,3 +10,6 @@
 # ignore .pyc files (python compiled)
 *.pyc
 
+# ignore backup files
+*.*~
+
