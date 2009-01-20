@@ -1,0 +1,12 @@
+# Lines starting with '#' are considered comments.
+
+# ignore DS_Store files (mac stuff)
+*.DS_Store
+
+# ignore .swp or .swo files (vim change files)
+*.swp
+*.swo
+
+# ignore .pyc files (python compiled)
+*.pyc
+
