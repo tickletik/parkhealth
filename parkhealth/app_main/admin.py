@@ -5,7 +5,7 @@ class DegreeAdmin(admin.ModelAdmin):
     list_display = ['acronym', 'name']
 
 class SpecialtyAdmin(admin.ModelAdmin):
-    list_display = ['name']
+    list_display = ['name', 'handle']
 
 class MedicalAdmin(admin.ModelAdmin):
     list_display = ['__unicode__', 'name_last', 'name_first']

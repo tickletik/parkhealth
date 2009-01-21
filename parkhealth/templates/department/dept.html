@@ -1,9 +1,21 @@
 {% extends "main/base.html" %}
 
-{% block menu_select %}2{% endblock %}
+{% block menu_select %}"{{menu_index}}"{% endblock %}
 
-{% block title %}Park Health Center{% endblock %}
-{% block subtitle %}<br/>Department{% endblock %}
+{% block subtitle %}{{specialty.name}}{% endblock %}
+{% block subtitle-information %}
+{% for s in staff %}
+    {% if s.has_bio %}
+    	<a href="{{BASE_URL}}/staff/medical/{{s.name_first|lower}}_{{s.name_last|lower}}">
+            {{s.name_first}} {{s.name_last}}
+    	</a>
+    {% else %}
+     	{{ s.name_first }} {{s.name_last}}
+    {% endif %}
+    {% for d in s.degrees.all %}
+     	{% ifnotequal d.name "none" %}, {{d.acronym}}{% endifnotequal %}
+    {% endfor %}<br/>
 
-{% block content %}<img class="center" src="{{MEDIA_URL}}/images/storefront.png" alt="parkhealth front"/>{% endblock %}
-        
+{% endfor %}
+{% endblock %}
+

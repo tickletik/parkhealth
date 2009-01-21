@@ -1,15 +1,4 @@
-{% extends "main/base.html" %}
-
-{% block menu_select %}2.7{% endblock %}
-
-{% block subtitle %}<br/>Internal Medicine{% endblock %}
-{% block subtitle-information %}
-<br/><a href="{{BASE_URL}}/staff/medical/gerson_gomes">Gerson Gomes</a>, MD, FACC, FACP, FACA
-<br/><a href="{{BASE_URL}}/staff/medical/jay_lee">Jay Y. Lee</a>, MD, FACC, FACP, CBNC
-<br/><a href="{{BASE_URL}}/staff/medical/olukayode_ojutiku">Olukayode O. Ojutiku</a>, MD, FACP
-<br/><a href="{{BASE_URL}}/staff/medical/himanshu_pandya">Himanshu Pandya</a>, MD
-<br/><a href="{{BASE_URL}}/staff/medical/gunwat_singh">Gunwant Singh</a>, MD
-{% endblock %}
+{% extends "department/dept.html" %}
 
 {% block content %}
   <p class="content">Internal Medicine is responsible for the general medical problems and total health of adult patients</p>

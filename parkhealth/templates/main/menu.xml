@@ -9,7 +9,7 @@
         <item title="Cardiology and Vascular" url="{{BASE_URL}}/dept/cardiology/" target="_self" />
         <item title="Dentistry" url="{{BASE_URL}}/dept/dentistry/" target="_self" />
         <item title="Family Physician" url="{{BASE_URL}}/dept/family/" target="_self" />
-        <item title="Gastroentorology" url="{{BASE_URL}}/dept/gastroentorology/" target="_self" />
+        <item title="Gastroenterology" url="{{BASE_URL}}/dept/gastroenterology/" target="_self" />
         <item title="Gynecology" url="{{BASE_URL}}/dept/gynecology/" target="_self" />
         <item title="Internal Medicine" url="{{BASE_URL}}/dept/internal/" target="_self" />
         <item title="Neurology" url="{{BASE_URL}}/dept/neurology/" target="_self" />
@@ -17,6 +17,7 @@
         <item title="Physical Therapy" url="{{BASE_URL}}/dept/physical/" target="_self" />
         <item title="Podiatry" url="{{BASE_URL}}/dept/podiatry/" target="_self" />
         <item title="Psychological Counseling" url="{{BASE_URL}}/dept/psychology/" target="_self" />
+        <item title="Pulmonary" url="{{BASE_URL}}/dept/pulmonary/" target="_self" />
         <item title="Radiology and Imaging" url="{{BASE_URL}}/dept/radiology/" target="_self" />
         <item title="Surgery" url="{{BASE_URL}}/dept/surgery/" target="_self" />
         <item title="Urology" url="{{BASE_URL}}/dept/urology/" target="_self" />
