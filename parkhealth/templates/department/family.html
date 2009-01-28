@@ -2,9 +2,9 @@
 
 {% block content %}
 
-  <p class="content">A Family Physician provides medical care throughout the life of the patient from infancy on.</p>
+  <p>A Family Physician provides medical care throughout the life of the patient from infancy on.</p>
 
-  <p class="content">Because he is intimately familiar with a patients' history, he can give the best possible advice on what medical care is needed.  Details which a specialist might not be aware of, are well known by the Family Care physician.</p>
+  <p>Because he is intimately familiar with a patients' history, he can give the best possible advice on what medical care is needed.  Details which a specialist might not be aware of, are well known by the Family Care physician.</p>
 
   <div class="content-label">Among the many things a family physician provides:</div>
   <ul class="content">
@@ -13,37 +13,40 @@
     <li>Subsequent follow up, and specialty referall when appropriate.</li>
   </ul>
   
-  <div class="blk-lbl-lft">Children</div>
-  <div class="blk-lbl-rgt">Womens Health</div>
-  <div class="cb">&nbsp;</div>
-
-  <div class="blk-def-lft">
-    Vaccinations<br/>
-    Screening for developmental problems<br/>
-    Medical guidance for healthy living
+  <div class="column">
+    <dl class="desc">
+        <dt class="desc">Children</dt>
+        <dd class="desc">Vaccinations</dd>
+        <dd class="desc">Screening for developmental problems</dd>
+        <dd class="desc">Medical guidance for healthy living</dd>
+    </dl>
   </div>
 
-  <div class="blk-def-rgt">
-    Breast Exam<br/>
-    Pelvic Exam, Pap Smear
-  </div>
-  <div class="cb">&nbsp;</div>
-
-  <div class="blk-lbl-lft">Adolescent</div>
-  <div class="blk-lbl-rgt">Adults</div>
-  <div class="cb">&nbsp;</div>
-
-  <div class="blk-def-lft">
-    Advice with obesity, healthy dieting<br/>
-    Counseling on sexually transmitted diseases<br/>
-    Counseling on drug and alcohol abuse
-  </div>
-
-  <div class="blk-def-rgt">
-    Prostate Cancer screening<br/>
-    Colon Cancer screening<br/>
-    Assessment of risks for Heart Disease, Stroke and Diabetes
+  <div class="column">
+    <dl class="desc">
+        <dt class="desc">Womens Health</dt>
+        <dd class="desc">Breast Exam</dd>
+        <dd class="desc">Pelvic Exam, Pap Smear</dd>
+    </dl>
   </div>
   <div class="cb">&nbsp;</div>
 
+
+  <div class="column">
+    <dl class="desc">
+        <dt class="desc">Adolescent</dt>
+        <dd class="desc">Advice with obesity, healthy dieting</dd>
+        <dd class="desc">Counseling on sexually transmitted diseases</dd>
+        <dd class="desc">Counseling on drug and alcohol abuse</dd>
+    </dl>
+  </div>
+
+  <div class="column">
+    <dl class="desc">
+        <dt class="desc">Adults</dt>
+        <dd class="desc">Prostate Cancer screening</dd>
+        <dd class="desc">Colon Cancer screening</dd>
+        <dd class="desc">Assessment of risks for Heart Disease, Stroke and Diabetes</dd>
+    </dl>
+  </div>
 {% endblock %}

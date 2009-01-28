@@ -113,14 +113,6 @@ p.content {
     margin: 10px 70px 10px 70px;
 }
 
-div.content-label {
-    margin: 20px 0px 0px 70px;
-    font-weight: bold;
-}
-
-div.content-def {
-    margin: 10px 40px 10px 90px;
-}
 
 ul.content {
     line-height: 1.5em;

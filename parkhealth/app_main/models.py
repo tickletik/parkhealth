@@ -16,6 +16,8 @@ class Degree(models.Model):
 
 class Specialty(models.Model):
     name = models.CharField(max_length=100)
+    menu = models.CharField(max_length=100, blank=True)
+    is_menu = models.BooleanField()
     handle = models.CharField(max_length=100)
 
     def __unicode__(self):
