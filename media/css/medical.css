@@ -1,0 +1,42 @@
+
+div.header {
+    color: #494980;
+    background: #d2d2e6;
+    width: 1150px;
+    height: 120px;
+}
+
+.medical{
+    font-family: Verdana;
+    font-size:10pt;
+    font-weight: normal;
+    color: #805d40;     
+}
+
+.medical-name {
+    color: #807d40;
+}
+
+/* this is for the medical staff section */
+table {
+    width: 700px;
+    margin: 10px 70px 10px 70px;
+}
+
+
+a:link {
+    color: #4444bf;
+}
+
+a:visited {
+    color: #8560a8;
+}
+
+th {
+    text-align: left;
+}
+
+td{
+    text-align: left;
+    height: 27px;
+}   

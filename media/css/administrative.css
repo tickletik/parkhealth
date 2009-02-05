@@ -1,0 +1,43 @@
+.admin {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 14pt;
+    color: #805d40;    
+}
+
+div.admin {
+    padding-top: 10px;
+    background: #e6e3cf;
+    width: 850px;
+    height: 100%;
+    position: absolute;
+    top: 175px;
+}
+
+a:link.mail {
+    color: #805d40;
+}
+
+a:visited.mail {
+    color: #8560a8;
+}
+
+div.contact {
+    font-size: 12pt;
+}
+
+div.column{
+    float:left;
+    width: 340px;
+    margin: 20px 0px 0px 70px;
+}
+
+div.cb {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+
+
