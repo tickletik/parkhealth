@@ -67,20 +67,45 @@ def staff_bio(request, section, first, last):
                     'bio':bio,
                     'menu_index':menu_index, 'menu_section':menu_section, 'menu_subsection':menu_subsection})
 
-def community(request, section=""):
+def community(request, section="news"):
     menu_section="community"
-    menu_subsection=""
+    menu_subsection="%s" % section
     menu_index = "3"
 
-    html_page = "community/community.html"
+    html_page = "community/%s.html" % (section)
 
-    if section=="gallery":
+    if section=="news":
         menu_index += ".1"
-        menu_subsection="gallery"
+    elif section=="gallery":
+        menu_index += ".2"
     
     return render_to_response(html_page,
                 {   'MEDIA_URL':MEDIA_URL, 'BASE_URL':BASE_URL, 
                     'menu_index':menu_index, 'menu_section':menu_section, 'menu_subsection':menu_subsection})
+                
+def directions(request):
+    menu_section="directions"
+    menu_index="7"
+    html_page = "main/directions.html"
+    return render_to_response(html_page,
+                {   'MEDIA_URL':MEDIA_URL, 'BASE_URL':BASE_URL, 
+                    'menu_index':menu_index, 'menu_section':menu_section})
+
+def insurance(request):
+    menu_section="insurance"
+    menu_index="4"
+    html_page = "main/insurance.html"
+    return render_to_response(html_page,
+                {   'MEDIA_URL':MEDIA_URL, 'BASE_URL':BASE_URL, 
+                    'menu_index':menu_index, 'menu_section':menu_section})
+
+def contact(request):
+    menu_section="contact"
+    menu_index="6"
+    html_page = "main/contact.html"
+    return render_to_response(html_page,
+                {   'MEDIA_URL':MEDIA_URL, 'BASE_URL':BASE_URL, 
+                    'menu_index':menu_index, 'menu_section':menu_section})
 
 def menu(request, section="", subsection=""):
     specialties = Specialty.objects.filter(is_menu=True)

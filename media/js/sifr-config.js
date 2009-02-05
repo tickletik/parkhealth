@@ -50,7 +50,7 @@ sIFR.activate(trajan_pro);
 // is styled via the `.sIFR-root` class. Here we've specified `background-color`
 // of the entire Flash movie to be a light grey, and the `color` of the text to
 // be red. Read more about styling at <http://wiki.novemberborn.net/sifr3/Styling>.
-sIFR.replace(trajan_pro, { selector: 'div.title, div.subtitle, div.subtitle-information, div.subtitle-left',
+sIFR.replace(trajan_pro, { selector: 'div.title, div.subtitle, div.subtitle-information, div.subtitle-left, div.community-text, div.gallery-date, div.gallery-title',
       css: [
             '.sIFR-root { width:800px; font-weight:normal; color: #494980; }',
             'a { text-decoration:underline; color: #4444bf; }',
@@ -60,3 +60,14 @@ sIFR.replace(trajan_pro, { selector: 'div.title, div.subtitle, div.subtitle-info
              ],
       wmode: 'transparent',
       });
+sIFR.replace(trajan_pro, { selector: 'div.community-header, div.community-header-sm, div.gallery-header', 
+      css: [
+            '.sIFR-root { width:800px; font-weight:normal; color: #805d40; }',
+            'a { text-decoration:underline; color: #4444bf; }',
+            'a:link { text-decoration:underline; color: #4444bf; }',
+            'a:visited { text-docration:underline; color: #4444bf; }',
+            'a:hover { text-docoration:underline; color: #4444bf; }'
+             ],
+      wmode: 'transparent',
+      });
+

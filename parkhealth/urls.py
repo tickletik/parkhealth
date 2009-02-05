@@ -8,11 +8,16 @@ urlpatterns = patterns('parkhealth.app_main.views',
     (r'^$', 'index'),
     (r'^dept/(?P<page>\w+)/$', 'department'),
 
+    (r'^community/$', 'community'),
+    (r'^community/(?P<section>\w+)/$', 'community'),
+
+    (r'^insurance/$', 'insurance'),
+    (r'^directions/$', 'directions'),
+    
     (r'^staff/(?P<section>\w+)/$', 'staff'),
     (r'^staff/(?P<section>\w+)/(?P<first>\w+)/(?P<last>\w+)/$', 'staff_bio'),
 
-    (r'^community/$', 'community'),
-    (r'^community/(?P<section>\w+)/$', 'community'),
+    (r'^contact/$', 'contact'),
 
     (r'^xml/menu/$', 'menu'),
     (r'^xml/menu/(?P<section>\w+)/$', 'menu'),

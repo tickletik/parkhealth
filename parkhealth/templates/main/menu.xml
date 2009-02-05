@@ -12,11 +12,11 @@
             </item>
             
             <item title="Community" childStyle="level2_style">
-                <item title="News" {% ifnotequal section "community" %}url="{{BASE_URL}}/community" target="_self"{% endifnotequal %} /> 
-                <item title="Photo Gallery" {% ifnotequal subsection "gallery" %}url="{{BASE_URL}}/community/gallery" target="_self"{% endifnotequal %} />
+                <item title="News" {% ifnotequal subsection "news" %}url="{{BASE_URL}}/community/news" target="_self"{% endifnotequal %} /> 
+                <!--<item title="Photo Gallery" {% ifnotequal subsection "gallery" %}url="{{BASE_URL}}/community/gallery" target="_self"{% endifnotequal %} />-->
             </item>
 
-            <item title="Insurence"/>
+            <item title="Insurance" {% ifnotequal section "insurance" %}url="{{BASE_URL}}/insurance/" target="_self"{% endifnotequal %} />
 
             <item title="Staff" childStyle="level2_style">
 
@@ -32,9 +32,8 @@
 
             </item>
 
-            <item title="Careers"/>
-            <item title="Contact"/>
-            <item title="Directions"/>
+            <item title="Contact" {% ifnotequal section "contact" %}url="{{BASE_URL}}/contact/" target="_self"{% endifnotequal %}/>
+            <item title="Directions" {% ifnotequal section "directions" %}url="{{BASE_URL}}/directions/" target="_self"{% endifnotequal %} />
             <item title="About Us"/>
         </main>
     </data>

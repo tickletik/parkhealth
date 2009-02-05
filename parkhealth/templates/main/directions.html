@@ -1,0 +1,20 @@
+{% extends "main/base.html" %}
+
+{% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/largetype.css" />{% endblock %}
+{% block subtitle %}Directions{% endblock %}
+
+
+{% block content %}
+<div class="label">Location:</div>
+<div>We are conveniently located at 131-24 Rockaway Boulevard, Exit 2, off of the Van Wyck Expressway, on the way to J.F.K. International Airport.</div.
+
+<div class="label">By Car:</div>
+<div>To get customized driving directions, click here: <a href="http://maps.yahoo.com/py/maps.py?BFCat=&amp;Pyt=Tmap&amp;newFL=Use+Address+Below&amp;addr=131-24+Rockaway+Blvd.&amp;csz=South+Ozone+Park%2C+NY&amp;country=us&amp;Get%A0Map=Get+Map"><img src="{{MEDIA_URL}}/images/yahoo_logo.gif" width="131" height="21" border="0"></a></div>
+
+<div class="label">By Train or Bus:</div>
+<ul>
+        <li>Take the A train to the last stop (Lefferts blvd. Station), Q10 to 131st Street and Rockaway Blvd</li>
+        <li>Take the E/F trains to the Union Turnpike Station (Kew Gardens), Q10 to 131sts Street and Rockaway Blvd.</li>
+</ul>
+
+{% endblock %}        
