@@ -6,14 +6,18 @@ admin.autodiscover()
 
 urlpatterns = patterns('parkhealth.app_main.views',
     (r'^$', 'index'),
-    (r'^dept/$', 'department'),
     (r'^dept/(?P<page>\w+)/$', 'department'),
 
     (r'^staff/(?P<section>\w+)/$', 'staff'),
     (r'^staff/(?P<section>\w+)/(?P<first>\w+)/(?P<last>\w+)/$', 'staff_bio'),
 
+    (r'^community/$', 'community'),
+    (r'^community/(?P<section>\w+)/$', 'community'),
+
     (r'^xml/menu/$', 'menu'),
-    (r'^xml/menu/(?P<staff>\w+)/(?P<first>\w+)/(?P<last>\w+)/$', 'menu_bio'),
+    (r'^xml/menu/(?P<section>\w+)/$', 'menu'),
+    (r'^xml/menu/(?P<section>\w+)/(?P<subsection>\w+)/$', 'menu'),
+    (r'^xml/menu/bio/(?P<staff_type>\w+)/(?P<first>\w+)/(?P<last>\w+)/$', 'menu_bio'),
 
 
     # Example:

@@ -1,20 +1,11 @@
 {% extends "main/base.html" %}
 
-{% block menu_select %}"{{menu_index}}"{% endblock %}
 
-{% block subtitle %}{{specialty.name}}{% endblock %}
+{% block subtitle %}{% if specialty.menu %}{{specialty.menu}}{% else %}{{specialty.name}}{% endif %}{% endblock %}
 {% block subtitle-information %}
-{% for s in staff %}
+{% for s in medical_staff %}
     {% if s.has_bio %}
-    	<a href="{{BASE_URL}}/staff/medical/{{s.name_first|lower}}_{{s.name_last|lower}}">
-            {{s.name_first}} {{s.name_last}}
-    	</a>
-    {% else %}
-     	{{ s.name_first }} {{s.name_last}}
-    {% endif %}
-    {% for d in s.degrees.all %}
-     	{% ifnotequal d.name "none" %}, {{d.acronym}}{% endifnotequal %}
-    {% endfor %}<br/>
+    	<a href="{{BASE_URL}}/staff/medical/{{s.name_first|lower}}/{{s.name_last|lower}}">{{s.name_first}} {{s.name_last}}</a>{% else %}{{ s.name_first }} {{s.name_last}}{% endif %}{% for d in s.degrees.all %}{% ifnotequal d.name "none" %}, {{d.acronym}}{% endifnotequal %}{% endfor %}<br/>
 
 {% endfor %}
 {% endblock %}

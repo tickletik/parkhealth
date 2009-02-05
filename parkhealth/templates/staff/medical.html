@@ -1,37 +1,36 @@
 {% extends "main/base.html" %}
 
-{% block menu_select %}5.1{% endblock %}
 
-{% block header-class %}header-staff{% endblock %}
-{% block subtitle %}<br/>Medical Staff{% endblock %}
+        
+{% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/medical.css" />{% endblock %}
+{% block subtitle %}Medical Staff{% endblock %}
 
-{% block content-class %}staff{% endblock %}
-
+{% block content-class %}medical{% endblock %}
 {% block content %}
 
-<table class="medical">
-  <thead>
-    <tr class="medical">
-      <th>Doctor</th>
-      <th>Degree</th>
-      <th>Specialty</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for staff in medical_staff %}
-    <tr>
-      <td class="medical">
-        {% if staff.has_bio %}
-          <a class="medical" href="{{BASE_URL}}/staff/medical/{{ staff.name_first }}/{{staff.name_last}}/">{{ staff }}</a>
-        {% else %}
-          <div class="medical-name">{{ staff }}</div>
-        {% endif %}
-      </td>
-      <td class="medical">{% for degree in staff.get_degrees %}{{ degree.acronym }} {% endfor %}</td>
-      <td class="medical">{% for specialty in staff.get_specialties %}{{ specialty.name }}<br />{% endfor %}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
+<table>
+    <thead>
+        <tr>
+            <th>Doctor</th>
+            <th>Degree</th>
+            <th>Specialty</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for staff in medical_staff %}
+        <tr>
+            <td>
+                {% if staff.has_bio %}
+                <a href="{{BASE_URL}}/staff/medical/{{ staff.name_first }}/{{staff.name_last}}/">{{ staff }}</a>
+                {% else %}
+                <div class="medical-name">{{ staff }}</div>
+                {% endif %}
+            </td>
+            <td>{% for degree in staff.get_degrees %}{{ degree.acronym }} {% endfor %}</td>
+            <td>{% for specialty in staff.get_specialties %}{{ specialty.name }}<br />{% endfor %}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
 </table>
 
 {% endblock %}

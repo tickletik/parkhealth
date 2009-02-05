@@ -17,7 +17,7 @@ div.header {
     color: #494980;
     background: #d2d2e6;
     width: 1150px;
-    height: 250px;
+    height: 230px;
 }
 
 div.title {
@@ -28,7 +28,6 @@ div.title {
     left: 50px;
     top: 10px;
     width: 80%;
-    height: 80%;
 }
 
 div.subtitle {
