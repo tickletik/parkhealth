@@ -107,6 +107,14 @@ def contact(request):
                 {   'MEDIA_URL':MEDIA_URL, 'BASE_URL':BASE_URL, 
                     'menu_index':menu_index, 'menu_section':menu_section})
 
+def about(request):
+    menu_section="about"
+    menu_index="8"
+    html_page = "main/about.html"
+    return render_to_response(html_page,
+                {   'MEDIA_URL':MEDIA_URL, 'BASE_URL':BASE_URL, 
+                    'menu_index':menu_index, 'menu_section':menu_section})
+
 def menu(request, section="", subsection=""):
     specialties = Specialty.objects.filter(is_menu=True)
     

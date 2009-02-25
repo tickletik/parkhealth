@@ -34,7 +34,7 @@
 
             <item title="Contact" {% ifnotequal section "contact" %}url="{{BASE_URL}}/contact/" target="_self"{% endifnotequal %}/>
             <item title="Directions" {% ifnotequal section "directions" %}url="{{BASE_URL}}/directions/" target="_self"{% endifnotequal %} />
-            <item title="About Us"/>
+            <item title="About Us" {% ifnotequal section "about" %}url="{{BASE_URL}}/about/" target="_self"{% endifnotequal %} />
         </main>
     </data>
   
