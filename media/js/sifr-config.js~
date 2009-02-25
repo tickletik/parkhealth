@@ -60,7 +60,7 @@ sIFR.replace(trajan_pro, { selector: 'div.title, div.subtitle, div.subtitle-info
              ],
       wmode: 'transparent',
       });
-sIFR.replace(trajan_pro, { selector: 'div.community-header, div.community-header-sm, div.gallery-header, div.contact-header', 
+sIFR.replace(trajan_pro, { selector: 'div.community-header, div.community-header-sm, div.gallery-header', 
       css: [
             '.sIFR-root { width:800px; font-weight:normal; color: #805d40; }',
             'a { text-decoration:underline; color: #4444bf; }',
