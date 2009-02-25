@@ -1,5 +1,8 @@
 # Lines starting with '#' are considered comments.
 
+# ignore the setup.py file (use setup_py for the repos instead)
+settings.py
+
 # ignore DS_Store files (mac stuff)
 *.DS_Store
 
