@@ -2,54 +2,34 @@
 
 {% block content %}
 
-
-<dl class="content">
-    <dt class="content">General</dt>
-    <dd class="content">Pain X-Ray</dd>
-    <dd class="content">Mammogram</dd>
-    <dd class="content">Dexa Scan (bone mineral density)</dd>
-    <dd class="content">CT-Scan (head and total body)</dd>
-</dl>
-
-<dl class="content">
-    <dt class="content">Nuclear Medicine</dt>
-    <dd class="content">Thyroid Scan</dd>
-    <dd class="content">Bone Scan</dd>
-    <dd class="content">Nuclear Cardiology</dd>
-</dl>
-
-<dl class="content">
-    <dt class="content">Sonography</dt>
-    <dd class="content">OB-GYN</dd>
-    <dd class="content">Cardiac</dd>
-    <dd class="content">Small Parts</dd>
-    <dd class="content">Vascdlar</dd>
-</dl>
-
-<!--
-        <dt class="desc">Scans available</dt>
-
-        <dd class="desc">Pain X-Ray</dd>
-        <dd class="desc">Mammogram</dd>
-        <dd class="desc">Dexa Scan (bone mineral density)</dd>
-        <dd class="desc">Sonography</dd>
-        <dl class="content">
-          <dd class="content">OB-GYN</dd>
-          <dd class="content">Cardiac</dd>
-          <dd class="content">Small Parts</dd>
-          <dd class="content">Vascdlar</dd>
-        </dl>
-
-        <dd class="desc">CT-Scan (head and total body)</dd>
-        <dd class="desc">MRI</dd>
-
-        <dd class="desc">Nuclear Medicine</dd>
-        <dl class="content">
-          <dd class="content">Thyroid Scan</dd>
-          <dd class="content">Bone Scan</dd>
-          <dd class="content">Nuclear Cardiology</dd>
-        </dl>
+<div class="column">
+    <dl class="content">
+     <dt class="content">General</dt>
+     <dd class="content">Plain X-Ray</dd>
+     <dd class="content">Mammogram</dd>
+     <dd class="content">Dexa Scan (bone mineral density)</dd>
     </dl>
-    -->
+
+    <dl class="content">
+        <dt class="content">Nuclear Medicine</dt>
+        <dd class="content">Thyroid Scan</dd>
+        <dd class="content">Bone Scan</dd>
+        <dd class="content">Nuclear Cardiology</dd>
+    </dl>
+</div>
+
+<div class="column">
+    <div class="emph">CT-Scan (head and total body)</div>
+    <div class="emph">MRI</div>
+
+    <dl class="content">
+        <dt class="content">Sonography</dt>
+        <dd class="content">OB-GYN</dd>
+        <dd class="content">Cardiac</dd>
+        <dd class="content">Small Parts</dd>
+        <dd class="content">Vascdlar</dd>
+    </dl>
+</div>
+
   
 {% endblock %}
