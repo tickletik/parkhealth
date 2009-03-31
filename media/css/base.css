@@ -16,38 +16,37 @@ html,body {
 div.header {
     color: #494980;
     background: #d2d2e6;
-    width: 1150px;
-    height: 230px;
+    width: 770px;
+    height: 170px;
 }
 
 div.title {
     font-family: Verdana, sans-serif;    
-    font-size: 27pt;
+    font-size: 16pt;
     
     position: absolute;
-    left: 50px;
+    left: 20px;
     top: 10px;
     width: 80%;
 }
 
 div.subtitle {
     font-family: Verdana, sans-serif;
-    font-size: 22pt;
+    font-size: 14pt;
     
     position: absolute;    
-    left: 70px;
-    top: 60px; 
+    top: 40px; 
+    left: 25px;
     width: 80%;
 }
 
 div.subtitle-information {
     font-family: Verdana, sans-serif;
+    font-size: 12pt; 
 
     position: absolute;
-    left: 90px;
-    top: 105px;
-
-    font-size: 1.3em; 
+    top: 70px;
+    left: 30px;
     
     width: 80%;
 }
@@ -55,77 +54,71 @@ div.subtitle-information {
 #menu_content {
     position: absolute;
     top: 20px;
-    left: 830px;
+    left: 560px;
 }
 
 .content {
     font-family: Palatino Linotype, Palatino, serif;
-    font-size: 12pt;
+    font-size: 10pt;
     color: #805d40;    
 }
 
-p.small {
-        width:450px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-}
 div.content {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 170px;
     padding-bottom: 30px;
-    width: 760px;
+    width: 520px;
 }
 
+div.column{
+    float: left;
+    width: 240px;
+    margin-right: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
 
 div.emph {
-        margin-top:30px;
-        font-weight:bold;
+    margin-top:15px;
+    font-weight:bold;
 }
 
-dl.content{
-    width: 600px;
-}
 
-dt.content{
+dt{
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 20px;
 }
-dd.content{
-    margin-left: 20px;
+dd{
+    margin-left: 10px;
     margin-top: 10px;
 }
 
-dt.desc{
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 7px;
-}
-
-dd.desc{
-    margin-left: 0px;
-}
 
 ul {
     line-height: 1.7em;
     list-style-type: square;
 }
 
-ul.content {
-    line-height: 1.7em;
-    list-style-type: square;
-}
-
-div.column{
-    float: left;
-    margin-top:0px;
-    width: 340px;
+div.center {
+    margin-top: 10%;
+    position: relative;
 }
 
 img.center {
     position: relative;
-    left: 100px;
     top: 50px;
 }
+
+a:link {
+    color: #4444bf;
+}
+
+a:visited {
+    color: #8560a8;
+}
+
 div.cb {
     clear: both;
     margin: 0;

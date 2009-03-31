@@ -1,16 +1,14 @@
 .admin {
     font-family: Verdana, sans-serif;
     font-weight: normal;
-    font-size: 14pt;
+    font-size: 10pt;
     color: #805d40;    
 }
 
 div.admin {
     padding-top: 10px;
     background: #e6e3cf;
-    width: 850px;
     height: 100%;
-    position: absolute;
     top: 175px;
 }
 
@@ -23,13 +21,13 @@ a:visited.mail {
 }
 
 div.contact {
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 div.column{
     float:left;
-    width: 340px;
-    margin: 20px 0px 0px 70px;
+    width: 220px;
+    margin: 20px 0px 0px 30px;
 }
 
 div.cb {

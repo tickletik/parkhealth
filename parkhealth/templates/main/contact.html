@@ -1,22 +1,27 @@
 {% extends "main/base.html" %}
 
-{% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/largetype.css" />{% endblock %}
 {% block subtitle %}Contact Information{% endblock %}
+        
+{% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/contact.css" />{% endblock %}
 
 
 {% block content %}
-<div class="contact-header">For specific contact information, please see the <a href="../staff/administrative">Administrative page</a></div>
-<div class="contact-header">To set up an appointment, please call the Front Desk at (718) 659 7166</div>
+<p>For specific contact information, please see the <a href="../staff/administrative">Administrative page</a></p>
+<p>To set up an appointment, please call the Front Desk at (718) 659 7166</p>
 
 <br/>
 
 <div class="column">
-    <div class="label">Office Contact Information</div>
-    <div class="address">131-24 Rockaway Blvd</div>
-    <div class="address">Far Rockaway, NY 11420</div>
-    <div class="phone">Tel: (718) 659 7166</div>
-    <div class="phone">Fax: (718) 529 5930</div>
+
+    <dl>
+        <dt>Office Contact Information</dt>
+        <dd>131-24 Rockaway Blvd</dd>
+        <dd>Far Rockaway, NY 11420</dd>
+        <dd>Tel: (718) 659 7166</dd>
+        <dd>Fax: (718) 529 5930</dd>
+    </dl>
 </div>
+
 
 <div class="column">
     <table>
@@ -25,12 +30,18 @@
             </thead>
 
             <tbody>
-                    <tr><td>Monday to Friday</td><td>8:00 am - 7:00 pm</td></tr>
-                    <tr><td>Saturday</td><td>8:00 am - 4:00 pm</td></tr>
+                <tr>
+                    <td>Monday to Friday</td>
+                    <td>8:00 am - 7:00 pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>8:00 am - 4:00 pm</td>
+                </tr>
             </tbody>
     </table>
 
-    <div class="label">Please note that we are closed on Sundays and Major Holidays</div>
+    <p>Please note that we are closed on Sundays and Major Holidays</p>
 </div>
     
 

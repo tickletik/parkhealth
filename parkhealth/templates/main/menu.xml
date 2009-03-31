@@ -42,11 +42,11 @@
         <level1_style>
           <folderCollapsedIconId>ATM_BlueF1_style1_collapsed_icon</folderCollapsedIconId>
           <folderExpandedIconId>ATM_BlueF1_style1_expanded_icon</folderExpandedIconId>
-          <spacing>5</spacing>
+          <spacing>3</spacing>
           <itemNextSpacing>1</itemNextSpacing>
           <textFormat>
 	    <font>Trajan Pro</font>
-	    <size>18</size>
+	    <size>14</size>
 	    <color>0xd2d2e6</color>
 	    <underline>false</underline>
           </textFormat>
@@ -58,7 +58,7 @@
 	      <mcLinkageId>ATM_BlueF1_style1_false_over</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>18</size>
+	        <size>14</size>
 	        <color>0xe6e4cf</color>
 	        <underline>true</underline>
 	      </textFormat>
@@ -67,7 +67,7 @@
 	      <mcLinkageId>ATM_BlueF1_style1_false_down</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>18</size>
+	        <size>14</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -76,7 +76,7 @@
 	      <mcLinkageId>ATM_BlueF1_style1_false_selected</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>18</size>
+	        <size>14</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -85,7 +85,7 @@
 	      <mcLinkageId>ATM_BlueF1_style1_true_up</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>18</size>
+	        <size>14</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -94,7 +94,7 @@
 	      <mcLinkageId>ATM_BlueF1_style1_true_over</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>18</size>
+	        <size>14</size>
 	        <color>0xe6e4cf</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -103,7 +103,7 @@
 	      <mcLinkageId>ATM_BlueF1_style1_true_down</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>18</size>
+	        <size>14</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -112,7 +112,7 @@
 	      <mcLinkageId>ATM_BlueF1_style1_true_selected</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>18</size>
+	        <size>14</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>	
@@ -133,7 +133,7 @@
           <itemNextSpacing>1</itemNextSpacing>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xd2d2e4</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -145,7 +145,7 @@
 	      <mcLinkageId>ATM_BlueF1_style2_false_over</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xe6e4cf</color>
 	        <underline>true</underline>
 	      </textFormat>
@@ -154,7 +154,7 @@
 	      <mcLinkageId>ATM_BlueF1_style2_false_over</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -163,7 +163,7 @@
 	      <mcLinkageId>ATM_BlueF1_style2_false_selected</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -172,7 +172,7 @@
 	      <mcLinkageId>ATM_BlueF1_style2_true_up</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -181,7 +181,7 @@
 	      <mcLinkageId>ATM_BlueF1_style2_true_over</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xe6e4cf</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -190,7 +190,7 @@
 	      <mcLinkageId>ATM_BlueF1_style2_true_down</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>
@@ -199,7 +199,7 @@
 	      <mcLinkageId>ATM_BlueF1_style2_true_selected</mcLinkageId>
 	      <textFormat>
 	        <font>Trajan Pro</font>
-	        <size>14</size>
+	        <size>12</size>
 	        <color>0xe6e073</color>
 	        <underline>false</underline>
 	      </textFormat>	
@@ -217,7 +217,7 @@
           <itemNextSpacing>1</itemNextSpacing>
           <textFormat>
 	    <font>Trajan Pro</font>
-	    <size>12</size>
+	    <size>10</size>
 	    <bold>true</bold>
 	    <color>0xe6e073</color>
           </textFormat>

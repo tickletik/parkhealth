@@ -1,11 +1,4 @@
 
-div.header {
-    color: #494980;
-    background: #d2d2e6;
-    width: 1150px;
-    height: 120px;
-}
-
 .medical{
     font-family: Verdana;
     font-size:10pt;
@@ -19,18 +12,11 @@ div.header {
 
 /* this is for the medical staff section */
 table {
-    width: 700px;
-    margin: 10px 70px 10px 70px;
+    width: 540px;
+    margin: 10px 70px 10px 20px;
 }
 
 
-a:link {
-    color: #4444bf;
-}
-
-a:visited {
-    color: #8560a8;
-}
 
 th {
     text-align: left;
@@ -38,5 +24,7 @@ th {
 
 td{
     text-align: left;
-    height: 27px;
+    height: 30px;
+    width: 160px;
 }   
+

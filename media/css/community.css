@@ -1,73 +1,40 @@
+div.header{
+    height: 100px;
+}
+
 .community {
     font-family: Verdana, sans-serif; 
     font-weight: normal;
-    font-size: 16pt;
+    font-size: 10pt;
     color: #805d40;    
 }
 
 div.community {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 30px;
     background: #e6e3cf;
-    width: 850px;
     height: 100%;
-    position: absolute;
-    top: 175px;
 }
 
-div.column-left{
-    float:left;
-    width: 400px;
-    margin: 20px 0px 0px 00px;
+div.column{
+    margin-top: 20px;
 }
 
-div.column-right{
-    float:left;
-    width: 340px;
-    margin: 20px 0px 0px 00px;
+dd{
+    color: #494980;
+    margin-top: 20px;
 }
-
 
 img {
     border: 5px solid #494980;
 }
 
-div.community-test{
-    font-size: 16pt;
-    color: #494980;
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
-
 div.com-margin{
-    font-size: 16pt;
+    font-size: 10pt;
     color: #494980;
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left:30px;
-}
-
-div.heading{
-    font-size: 18pt;
-    margin-bottom: 20px;
-    color: #805d40;    
-}
-
-div.gallery-header {
-    font-size: 17pt;
-    margin-bottom: 20px;
-    color: #805d40;    
-    text-decoration: underline;
-}
-div.gallery-date{
-    font-size: 10pt;
-    color: #494980;
-}
-
-div.gallery-title{
-    font-size: 17pt;
-    color: #494980;
-    margin-bottom: 20px;
 }
 
 div.cb {

@@ -19,15 +19,15 @@
     <tbody>
         {% for staff in medical_staff %}
         <tr>
-            <td>
+            <td class="doctor">
                 {% if staff.has_bio %}
                 <a href="{{BASE_URL}}/staff/medical/{{ staff.name_first }}/{{staff.name_last}}/">{{ staff }}</a>
                 {% else %}
                 <div class="medical-name">{{ staff }}</div>
                 {% endif %}
             </td>
-            <td>{% for degree in staff.get_degrees %}{{ degree.acronym }} {% endfor %}</td>
-            <td>{% for specialty in staff.get_specialties %}{{ specialty.name }}<br />{% endfor %}</td>
+            <td class="degree">{% for degree in staff.get_degrees %}{{ degree.acronym }} {% endfor %}</td>
+            <td class="specialty">{% for specialty in staff.get_specialties %}{{ specialty.name }}<br />{% endfor %}</td>
         </tr>
         {% endfor %}
     </tbody>
