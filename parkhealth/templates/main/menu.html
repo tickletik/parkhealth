@@ -47,13 +47,18 @@
         <div class="submenu">
             <ul>
                 <li>
-                    {% ifnotequal section "medical" %}<a href="{{BASE_URL}}/staff/medical/">Medical</a>
+                {% ifnotequal section "medical" %}
+                <a href="{{BASE_URL}}/staff/medical/">Medical</a>
+                {% endifnotequal %}
+
+                    {% ifequal section "medical" %} 
+                    {% ifequal subsection "bio" %}
+                    <a href="{{BASE_URL}}/staff/medical/"><div class="submenu-selected">Medical</div></a>
+                    <ul><li>{{ bio }}</li></ul>
                     {% else %}
-                        Medical
-                        {% ifequal subsection "bio" %}
-                        <ul><li>{{ bio }}</li></ul>
-                        {% endifequal %}
-                    {% endifnotequal %}
+                    Medical
+                    {% endifequal %}
+                    {% endifequal %}
                 </li>
                 
                 <li>{% ifnotequal section "administrative" %}<a href="{{BASE_URL}}/staff/administrative/">Administrative</a>
