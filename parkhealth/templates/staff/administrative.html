@@ -1,9 +1,12 @@
 {% extends "main/base.html" %}
-
 {% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/administrative.css" />{% endblock %}
 {% block subtitle %}<br/>Administrative Staff{% endblock %}
 
 {% block content-class %}admin{% endblock %}
+
+{% block expandmenu %}
+    ddaccordion.expandone('submenuheader', 2);
+{% endblock %}
 
 {% block content %}
 

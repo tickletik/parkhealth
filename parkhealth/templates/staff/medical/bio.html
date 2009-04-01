@@ -2,6 +2,10 @@
 
 {% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/bio.css" />{% endblock %}
 
+{% block expandmenu %}
+    ddaccordion.expandone('submenuheader', 2);
+{% endblock %}
+
 {% block menu_flashvars %}
   flashvars.name_last = "{{ bio.name_last }}";
   flashvars.name_first = "{{ bio.name_first }}";

@@ -3,6 +3,10 @@
 {% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/community.css" />{% endblock %}
 {% block subtitle %}Community{% endblock %}
 
+{% block expandmenu %}
+    ddaccordion.expandone('submenuheader', 1);
+{% endblock %}
+
 {% block content-class %}community{% endblock %}
 
 {% block content %}

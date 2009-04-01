@@ -1,9 +1,11 @@
 {% extends "main/base.html" %}
-
-
         
 {% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/medical.css" />{% endblock %}
 {% block subtitle %}Medical Staff{% endblock %}
+
+{% block expandmenu %}
+    ddaccordion.expandone('submenuheader', 2);
+{% endblock %}
 
 {% block content-class %}medical{% endblock %}
 {% block content %}
