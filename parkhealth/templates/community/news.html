@@ -1,34 +1,57 @@
 {% extends "main/base.html" %}
 
 {% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/community.css" />{% endblock %}
-{% block subtitle %}Community{% endblock %}
+
+{% block subtitle %}Community - News {% endblock %}
+
 
 {% block onload %}
     ddaccordion.expandone('submenuheader', 1);
 {% endblock %}
 
-{% block content-class %}community{% endblock %}
 
 {% block content %}
 
-        <div class="community-head">Park Health offers many services to the community:</div>
+        <div class="emph">Park Health offers many services to the community:</div>
         
         <div class="column">
-            <dt>
+            <dl>
                 <dd>Yearly Health Fairs</dd>
                 <dd>Low Cost Breast Mammograms</dd>
                 <dd>March for Juvenile Diabetes</dd>
-            </dt>
+            </dl>
         </div>
 
         <div class="column">
-            <img src="{{MEDIA_URL}}/images/gallery-test.png"></img>
+            <img src="{{MEDIA_URL}}/images/news/thumb/diabetes1.png"></img>
         </div>
 
         <div class="cb">&nbsp;</div>
 
-        <p>Jamil Abraham Science Award</p>
+        <dl>
+            <dt>Jamil Abraham Science Award</dt>
 
-        <div class="com-margin">In recognition of outstanding accomplishments in the Sciences<br/> To graduating class in John Adams high school</div>
+            <dd>In recognition of outstanding accomplishments in the Sciences<br/> To graduating class in John Adams high school</dd>
+        </dl>
+
+
+        <div class="column">
+            <div class="notes">Recipient for the year 1998 with Doctor Abraham</div>
+        </div>
+
+        <div class="column">
+            <img src="{{MEDIA_URL}}/images/news/thumb/recipient1.png"></img>
+        </div>
+
+        <div class="cb">&nbsp;</div>
+
+        <div class="emph">Park Health Center staff</div>
+        <div class="column">
+            <div class="notes">Heart Day, Feb. 6, 2009</div>
+        </div>
+        <div class="column">
+            <img src="{{MEDIA_URL}}/images/news/thumb/heart1.png"></img>
+        </div>
+        <div class="cb">&nbsp;</div>
 {% endblock %}
         
