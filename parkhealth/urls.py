@@ -23,7 +23,6 @@ urlpatterns = patterns('parkhealth.app_main.views',
     (r'^xml/menu/$', 'menu'),
     (r'^xml/menu/(?P<section>\w+)/$', 'menu'),
     (r'^xml/menu/(?P<section>\w+)/(?P<subsection>\w+)/$', 'menu'),
-    (r'^xml/menu/bio/(?P<staff_type>\w+)/(?P<first>\w+)/(?P<last>\w+)/$', 'menu_bio'),
 
 
     # Example:
