@@ -1,15 +1,6 @@
-.admin {
+.content {
     font-family: Verdana, sans-serif;
-    font-weight: normal;
     font-size: 10pt;
-    color: #805d40;    
-}
-
-div.admin {
-    padding-top: 10px;
-    background: #e6e3cf;
-    height: 100%;
-    top: 175px;
 }
 
 a:link.mail {
