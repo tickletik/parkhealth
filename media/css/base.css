@@ -16,7 +16,7 @@ html,body {
 div.header {
     color: #494980;
     background: #d2d2e6;
-    width: 800px;
+    width: 740px;
     height: 100px;
 }
 
@@ -27,7 +27,7 @@ div.title {
     position: absolute;
     left: 20px;
     top: 10px;
-    width: 560px;
+    width: 500px;
 }
 
 div.subtitle {
@@ -37,7 +37,7 @@ div.subtitle {
     position: absolute;    
     top: 40px; 
     left: 25px;
-    width: 560px;
+    width: 500px;
 }
 
 div.subtitle-information {
@@ -47,7 +47,7 @@ div.subtitle-information {
     position: absolute;
     top: 70px;
     left: 30px;
-    width: 560px;
+    width: 500px;
 }
 
 .content {
@@ -57,15 +57,15 @@ div.subtitle-information {
 }
 
 div.content {
-    padding-left: 30px;
+    padding-left: 15px;
     padding-right: 170px;
     padding-bottom: 30px;
-    width: 520px;
+    width: 505px;
 }
 
 div.column{
     float: left;
-    width: 240px;
+    width: 220px;
     margin-right: 20px;
 }
 
@@ -86,6 +86,9 @@ dt{
 dd{
     margin-left: 10px;
     margin-top: 10px;
+}
+dd.close {
+    margin-top: 0px;
 }
 
 
