@@ -16,8 +16,8 @@ html,body {
 div.header {
     color: #494980;
     background: #d2d2e6;
-    width: 770px;
-    height: 170px;
+    width: 800px;
+    height: 100px;
 }
 
 div.title {
@@ -27,7 +27,7 @@ div.title {
     position: absolute;
     left: 20px;
     top: 10px;
-    width: 80%;
+    width: 560px;
 }
 
 div.subtitle {
@@ -37,7 +37,7 @@ div.subtitle {
     position: absolute;    
     top: 40px; 
     left: 25px;
-    width: 80%;
+    width: 560px;
 }
 
 div.subtitle-information {
@@ -47,14 +47,7 @@ div.subtitle-information {
     position: absolute;
     top: 70px;
     left: 30px;
-    
-    width: 80%;
-}
-
-#menu_content {
-    position: absolute;
-    top: 20px;
-    left: 560px;
+    width: 560px;
 }
 
 .content {

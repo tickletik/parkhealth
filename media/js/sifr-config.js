@@ -52,7 +52,7 @@ sIFR.activate(trajan_pro);
 // be red. Read more about styling at <http://wiki.novemberborn.net/sifr3/Styling>.
 sIFR.replace(trajan_pro, { selector: 'div.title, div.subtitle, div.subtitle-information, div.subtitle-left, div.community-text, div.gallery-date, div.gallery-title',
       css: [
-            '.sIFR-root { width:800px; font-weight:normal; color: #494980; }',
+            '.sIFR-root { width:600px; font-weight:normal; color: #494980; }',
             'a { text-decoration:underline; color: #4444bf; }',
             'a:link { text-decoration:underline; color: #4444bf; }',
             'a:visited { text-docration:underline; color: #4444bf; }',
@@ -62,7 +62,7 @@ sIFR.replace(trajan_pro, { selector: 'div.title, div.subtitle, div.subtitle-info
       });
 sIFR.replace(trajan_pro, { selector: 'div.community-header, div.community-header-sm, div.gallery-header', 
       css: [
-            '.sIFR-root { width:800px; font-weight:normal; color: #805d40; }',
+            '.sIFR-root { width:600px; font-weight:normal; color: #805d40; }',
             'a { text-decoration:underline; color: #4444bf; }',
             'a:link { text-decoration:underline; color: #4444bf; }',
             'a:visited { text-docration:underline; color: #4444bf; }',

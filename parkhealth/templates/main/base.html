@@ -7,30 +7,72 @@
         <link rel="shortcut icon" href="{{MEDIA_URL}}/images/logo.ico"/>
 
         <link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/base.css" />
+        <link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/menu.css" />
+        <link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/sifr.css" />
         {% block stylesheets %}{% endblock %}
 
-        <link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/sifr.css" />
         <script type="text/javascript" src="{{MEDIA_URL}}/js/sifr.js" ></script>
         <script type="text/javascript" src="{{MEDIA_URL}}/js/sifr-config.js"></script>
 
-        <script type="text/javascript" src="{{MEDIA_URL}}/js/swfobject.js" ></script>
+        <script type="text/javascript" src="{{MEDIA_URL}}/js/ddaccordion.js" ></script>
+        <script type="text/javascript" src="{{MEDIA_URL}}/js/jquery.js" ></script>
+        
         <script type="text/javascript">
-            var flashvars = {};
-            flashvars.url_base = "{{BASE_URL}}/";
-            {% if menu_section %}flashvars.menu_section="{{menu_section}}";{% endif %}
-            {% if menu_subsection %}flashvars.menu_subsection="{{menu_subsection}}";{% endif %}
-            {% if menu_index %}flashvars.menu_index="{{menu_index}}";{% endif %}
 
-            {% block menu_flashvars %}{% endblock %}
 
-            var params = {};
-            var attributes = {};
-            attributes.id = "menu_content";
-            swfobject.embedSWF("{{MEDIA_URL}}/swf/menu.swf", "menuAlternate", "200", "700", "9.0.0", false, flashvars, params, attributes);
+            ddaccordion.init({
+
+	            headerclass: "submenuheader",       //Shared CSS class name of headers group
+	            contentclass: "submenu",            //Shared CSS class name of contents group
+
+                revealtype: "click",            // Reveal content when user clicks or onmouseover the header? 
+                                                // Valid value: "click", "clickgo", or "mouseover"
+                    
+                mouseoverdelay: 200,            // if revealtype="mouseover", set delay in milliseconds 
+                                                // before header expands onMouseover
+
+                collapseprev: true,             // Collapse previous content (so only one open at any time)? true/false 
+
+                defaultexpanded: [],            // index of content(s) open by default [index1, index2, etc] [] 
+                                                // denotes no content
+
+                onemustopen: false,             // Specify whether at least one header should be open always 
+                                                // (so never all headers closed)
+
+                animatedefault: false,          //Should contents open by default be animated into view?
+                persiststate: true,             //persist state of opened contents within browser session?
+                
+                toggleclass: ["", ""],          // Two CSS classes to be applied to the header when it's collapsed 
+                                                // and expanded, respectively ["class1", "class2"]
+
+                /*
+                    Additional HTML added to the header when it's collapsed and expanded, 
+                    respectively  ["position", "html1", "html2"] (see docs)
+                */
+                togglehtml: ["suffix", 
+                                "<img src='{{MEDIA_URL}}/images/collapse.png' class='statusicon' />", 
+                                "<img src='{{MEDIA_URL}}/images/open.png' class='statusicon' />"], 
+
+                
+                animatespeed: "normal",           // speed of animation: integer in milliseconds (ie: 200), or 
+                                                // keywords "fast", "normal", or "slow"
+
+                oninit:function(headers, expandedindices){      //custom code to run when headers have initalized
+                    //do nothing
+                },
+                
+                //custom code to run whenever a header is opened or closed
+	            onopenclose:function(header, index, state, isuseractivated){   
+		            //do nothing
+	            }
+            })
         </script>
 
     </head>
+
     <body>
+        {{ MENU }}            
+
         <div class="header">
             <div class="title">{% block title %}Park Health Center{% endblock %}</div>
             <div class="subtitle">{% block subtitle %}{% endblock %}</div>
@@ -38,12 +80,6 @@
         </div>
 
         <div class="{% block content-class %}content{% endblock %}">{% block content %}{% endblock %}</div>
-
-        <div id="menuAlternate">
-            <a href="http://www.adobe.com/go/getflashplayer">
-                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-            </a>
-        </div>
 
     </body>
 </html>

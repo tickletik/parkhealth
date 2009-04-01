@@ -1,6 +1,8 @@
 {% extends "main/base.html" %}
 
 
+{% block stylesheets %}<link rel="stylesheet" text="text/css" href="{{MEDIA_URL}}/css/main.css" />{% endblock %}
+
 {% block subtitle %}{% if specialty.menu %}{{specialty.menu}}{% else %}{{specialty.name}}{% endif %}{% endblock %}
 {% block subtitle-information %}
 {% for s in medical_staff %}

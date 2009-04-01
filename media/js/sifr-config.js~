@@ -12,7 +12,7 @@ the copyright statement in `sifr.js` is kept intact.
 // Make an object pointing to the location of the Flash movie on your web server.
 // Try using the font name as the variable name, makes it easy to remember which
 // object you're using. As an example in this file, we'll use Futura.
-var trajan_pro = { src: 'http://parkhealth.dev/parkmedia/swf/trajan-pro.swf' };
+var trajan_pro = { src: 'http://parkhealth.biz/parkmedia/swf/trajan-pro.swf' };
 
 // Now you can set some configuration settings.
 // See also <http://wiki.novemberborn.net/sifr3/JavaScript+Configuration>.

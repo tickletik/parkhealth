@@ -1,0 +1,87 @@
+.parkmenu{
+    background: #494980;
+    
+    position: absolute;
+    top: 20px;
+    left: 560px;
+    width: 200px; /*width of menu*/
+    height: 600px;
+    padding: 20px 10px 20px 10px;
+}
+
+.parkmenu div.menuitem {
+    font: 16px  Verdana, Helvetica, sans-serif;
+    color: #e6e073;
+    display: block;
+    position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+    width: auto;
+    padding: 10px 10px 0px 10px;
+    text-decoration: none;
+}
+
+.parkmenu div.submenu{ /*DIV that contains each sub menu*/
+}
+
+.parkmenu div.submenu-selected{
+    color: #e6e073;
+}
+
+.parkmenu a.menuitem{
+    font: 16px  Verdana, Helvetica, sans-serif;
+    color: #d2d2e6;
+    display: block;
+    position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+    width: auto;
+    padding: 10px 10px 0px 10px;
+    text-decoration: none;
+}
+
+
+.parkmenu a.menuitem:visited, .parkmenu .menuitem:active {
+    color: #d2d2e6;
+}
+
+.parkmenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    border: none;
+    padding: 10px 10px 0px 10px;
+}
+
+.parkmenu a.menuitem:hover {
+    color: #e6e0cf;
+}
+
+.parkmenu div.submenu ul{ /*UL of each sub menu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.parkmenu div.submenu ul li{
+    margin-left: 20px;
+}
+.parkmenu div.submenu ul li li{
+    font-size: 12px;
+}
+
+
+.parkmenu div.submenu ul li a{
+    display: block;
+    font: normal 14px  Verdana, Helvetica, sans-serif;
+    color: #d2d2e6;
+    text-decoration: none;
+}
+
+.parkmenu div.submenu ul li {
+    display: block;
+    font: normal 14px  Verdana, Helvetica, sans-serif;
+    color: #e6e073;
+    text-decoration: none;
+}
+
+.parkmenu div.submenu ul li a:hover {
+    color: #e6e0cf;
+}
+
