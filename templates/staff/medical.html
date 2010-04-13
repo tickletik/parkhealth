@@ -23,7 +23,7 @@
         <tr>
             <td class="doctor">
                 {% if staff.has_bio %}
-                <a href="{{BASE_URL}}/staff/medical/{{ staff.name_first }}/{{staff.name_last}}/">{{ staff }}</a>
+                <a href="/staff/medical/{{ staff.name_first }}/{{staff.name_last}}/">{{ staff }}</a>
                 {% else %}
                 <div class="medical-name">{{ staff }}</div>
                 {% endif %}

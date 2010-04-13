@@ -3,24 +3,24 @@
 <component name='Accordion Tree Menu v3'>
     <data>
         <main childStyle="level1_style">
-            <item title="Home" {% ifnotequal section "home" %}url="{{BASE_URL}}/" target="_self"{% endifnotequal %} />
+            <item title="Home" {% ifnotequal section "home" %}url="/" target="_self"{% endifnotequal %} />
 
             <item title="Departments" childStyle="level2_style">
                 {% for s in specialties %}
-                <item title="{{ s.name }}" {% ifnotequal s.handle subsection %}url="{{BASE_URL}}/dept/{{ s.handle }}/" target="_self"{% endifnotequal %} />
+                <item title="{{ s.name }}" {% ifnotequal s.handle subsection %}url="/dept/{{ s.handle }}/" target="_self"{% endifnotequal %} />
                 {% endfor %}
             </item>
             
             <item title="Community" childStyle="level2_style">
-                <item title="News" {% ifnotequal subsection "news" %}url="{{BASE_URL}}/community/news" target="_self"{% endifnotequal %} /> 
-                <!--<item title="Photo Gallery" {% ifnotequal subsection "gallery" %}url="{{BASE_URL}}/community/gallery" target="_self"{% endifnotequal %} />-->
+                <item title="News" {% ifnotequal subsection "news" %}url="/community/news" target="_self"{% endifnotequal %} /> 
+                <!--<item title="Photo Gallery" {% ifnotequal subsection "gallery" %}url="/community/gallery" target="_self"{% endifnotequal %} />-->
             </item>
 
-            <item title="Insurance" {% ifnotequal section "insurance" %}url="{{BASE_URL}}/insurance/" target="_self"{% endifnotequal %} />
+            <item title="Insurance" {% ifnotequal section "insurance" %}url="/insurance/" target="_self"{% endifnotequal %} />
 
             <item title="Staff" childStyle="level2_style">
 
-                <item title="Medical" {% ifnotequal section "medical" %}url="{{BASE_URL}}/staff/medical/" target="_self"{% endifnotequal %} childStyle="level3_style">
+                <item title="Medical" {% ifnotequal section "medical" %}url="/staff/medical/" target="_self"{% endifnotequal %} childStyle="level3_style">
                     {% ifequal section "bio" %}
                     {% ifequal subsection "medical" %}
                     <item title="{{ bio }}"/>
@@ -28,13 +28,13 @@
                     {% endifequal %}
                 </item>
 
-                <item title="Administrative" {% ifnotequal section "administrative" %}url="{{BASE_URL}}/staff/administrative/" target="_self"{% endifnotequal %} childStyle="level3_style" />
+                <item title="Administrative" {% ifnotequal section "administrative" %}url="/staff/administrative/" target="_self"{% endifnotequal %} childStyle="level3_style" />
 
             </item>
 
-            <item title="Contact" {% ifnotequal section "contact" %}url="{{BASE_URL}}/contact/" target="_self"{% endifnotequal %}/>
-            <item title="Directions" {% ifnotequal section "directions" %}url="{{BASE_URL}}/directions/" target="_self"{% endifnotequal %} />
-            <item title="About Us" {% ifnotequal section "about" %}url="{{BASE_URL}}/about/" target="_self"{% endifnotequal %} />
+            <item title="Contact" {% ifnotequal section "contact" %}url="/contact/" target="_self"{% endifnotequal %}/>
+            <item title="Directions" {% ifnotequal section "directions" %}url="/directions/" target="_self"{% endifnotequal %} />
+            <item title="About Us" {% ifnotequal section "about" %}url="/about/" target="_self"{% endifnotequal %} />
         </main>
     </data>
   

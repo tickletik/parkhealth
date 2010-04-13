@@ -1,7 +1,7 @@
     <div class="parkmenu">
 
         {% ifnotequal section "home" %}
-        <a class="menuitem" href="{{BASE_URL}}/">Home</a>
+        <a class="menuitem" href="/">Home</a>
         {% else %}
         <div class="menuitem">Home</div>
         {% endifnotequal %}
@@ -15,7 +15,7 @@
             <ul>
                 {% for s in specialties %}
                 {% ifnotequal s.handle subsection %}
-                <li><a href="{{BASE_URL}}/dept/{{s.handle}}/">{{s.name}}</a></li>
+                <li><a href="/dept/{{s.handle}}/">{{s.name}}</a></li>
                 {% else %}
                 <li>{{s.name}}</li>
                 {% endifnotequal %}
@@ -31,7 +31,7 @@
         <div class="submenu">
             <ul>
                 {% ifnotequal subsection "news" %}
-                <li><a href="{{BASE_URL}}/community/news/">News</a></li>
+                <li><a href="/community/news/">News</a></li>
                 {% else %}
                 <li>News</li>
                 {% endifnotequal %}
@@ -39,7 +39,7 @@
         </div>
 
         {% ifnotequal section "insurance" %}
-        <a class="menuitem" href="{{BASE_URL}}/insurance/">Insurance</a>
+        <a class="menuitem" href="/insurance/">Insurance</a>
         {% else %}
         <a class="menuitem"><div class="submenu-selected">Insurance</div></a>
         {% endifnotequal %}
@@ -49,12 +49,12 @@
             <ul>
                 <li>
                 {% ifnotequal section "medical" %}
-                <a href="{{BASE_URL}}/staff/medical/">Medical</a>
+                <a href="/staff/medical/">Medical</a>
                 {% endifnotequal %}
 
                     {% ifequal section "medical" %} 
                     {% ifequal subsection "bio" %}
-                    <a href="{{BASE_URL}}/staff/medical/"><div class="submenu-selected">Medical</div></a>
+                    <a href="/staff/medical/"><div class="submenu-selected">Medical</div></a>
                     <ul><li>{{ bio }}</li></ul>
                     {% else %}
                     Medical
@@ -62,25 +62,25 @@
                     {% endifequal %}
                 </li>
                 
-                <li>{% ifnotequal section "administrative" %}<a href="{{BASE_URL}}/staff/administrative/">Administrative</a>
+                <li>{% ifnotequal section "administrative" %}<a href="/staff/administrative/">Administrative</a>
                 {% else %}Administrative{% endifnotequal %}</li>
             </ul>
         </div>
 
         {% ifnotequal section "contact" %}
-        <a class="menuitem" href="{{BASE_URL}}/contact/">Contact</a>
+        <a class="menuitem" href="/contact/">Contact</a>
         {% else %}
         <a class="menuitem"><div class="submenu-selected">Contact</div></a>
         {% endifnotequal %}
 
         {% ifnotequal section "directions" %}
-        <a class="menuitem" href="{{BASE_URL}}/directions/">Directions</a>
+        <a class="menuitem" href="/directions/">Directions</a>
         {% else %}
         <a class="menuitem"><div class="submenu-selected">Directions</div></a>
         {% endifnotequal %}
 
         {% ifnotequal section "about" %}
-        <a class="menuitem" href="{{BASE_URL}}/about/">About</a>
+        <a class="menuitem" href="/about/">About</a>
         {% else %}
         <a class="menuitem"><div class="submenu-selected">About</div></a>
         {% endifnotequal %}

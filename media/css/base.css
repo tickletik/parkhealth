@@ -1,3 +1,38 @@
+
+@font-face {
+	font-family: 'MankSansRegular';
+	src: url('../font/manksans/manksans.eot');
+	src: local('MankSans'), local('MankSans'), 
+        url('../font/manksans/manksans.woff') format('woff'), 
+        url('../font/manksans/manksans.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MankSansItalic';
+	src: url('../font/manksans/manksansoblique.eot');
+	src: local('MankSans'), local('MankSans-Oblique'), 
+        url('../font/manksans/manksansoblique.woff') format('woff'), 
+        url('../font/manksans/manksansoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MankSans-MediumMediumItalic';
+	src: url('../font/manksans/manksansmediumoblique.eot');
+	src: local('MankSans-Medium'), local('MankSans-MediumOblique'), 
+        url('../font/manksans/manksansmediumoblique.woff') format('woff'), 
+        url('../font/manksans/manksansmediumoblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MankSans-MediumRegular';
+	src: url('../font/manksans/manksansmedium.eot');
+	src: local('MankSans-Medium'), local('MankSans-Medium'), 
+        url('../font/manksans/manksansmedium.woff') format('woff'), 
+        url('../font/manksans/manksansmedium.ttf') format('truetype');
+}
+
+
+
 html,body {
     margin-left:0px;
     margin-top:0px;
@@ -17,12 +52,12 @@ div.header {
     color: #494980;
     background: #d2d2e6;
     width: 740px;
-    height: 100px;
+    height: 140px;
 }
 
 div.title {
-    font-family: Verdana, sans-serif;    
-    font-size: 16pt;
+    font-family: MankSans-MediumRegular, Verdana, sans-serif;    
+    font-size: 36pt;
     
     position: absolute;
     left: 20px;
@@ -31,27 +66,27 @@ div.title {
 }
 
 div.subtitle {
-    font-family: Verdana, sans-serif;
-    font-size: 14pt;
+    font-family: MankSansRegular, Verdana, sans-serif;
+    font-size: 24pt;
     
     position: absolute;    
-    top: 40px; 
+    top: 70px; 
     left: 25px;
     width: 500px;
 }
 
 div.subtitle-information {
-    font-family: Verdana, sans-serif;
-    font-size: 12pt; 
+    font-family: MankSansRegular, Verdana, sans-serif;
+    font-size: 16pt; 
 
     position: absolute;
-    top: 70px;
+    top: 110px;
     left: 30px;
     width: 500px;
 }
 
 .content {
-    font-family: Palatino Linotype, Palatino, serif;
+    font-family: MankSans-MediumRegular, Palatino Linotype, Palatino, serif;
     font-size: 10pt;
     color: #805d40;    
 }

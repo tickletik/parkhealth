@@ -13,7 +13,7 @@
 
 {% block subtitle %}Medical Staff Bio{% endblock %}
 {% block subtitle-information %}
-  {{ bio }},
+{{ bio.name_first }} {{ bio.name_last }}
   {% for degree in bio.get_degrees %}
     {{degree.acronym}}
     {% if forloop.last %}{% else %}, {% endif %}
