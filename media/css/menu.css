@@ -5,12 +5,13 @@
     top: 20px;
     left: 530px;
     width: 190px; /*width of menu*/
-    height: 600px;
+    height: 640px;
     padding: 20px 5px 20px 5px;
 }
 
 .parkmenu div.menuitem {
-    font: 16px  Verdana, Helvetica, sans-serif;
+    font-family: MarkSansRegular, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
     color: #e6e073;
     display: block;
     position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
@@ -27,7 +28,8 @@
 }
 
 .parkmenu a.menuitem{
-    font: 16px  Verdana, Helvetica, sans-serif;
+    font-family: MarkSansRegular, Verdana, Helvetica, sans-serif;
+    font-size: 16px;
     color: #d2d2e6;
     display: block;
     position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
@@ -69,14 +71,16 @@
 
 .parkmenu div.submenu ul li a{
     display: block;
-    font: normal 14px  Verdana, Helvetica, sans-serif;
+    font-family: MarkSansRegular, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
     color: #d2d2e6;
     text-decoration: none;
 }
 
 .parkmenu div.submenu ul li {
     display: block;
-    font: normal 14px  Verdana, Helvetica, sans-serif;
+    font-family: MarkSansRegular, Verdana, Helvetica, sans-serif;
+    font-size: 14px;
     color: #e6e073;
     text-decoration: none;
 }
