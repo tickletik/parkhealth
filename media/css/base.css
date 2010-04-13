@@ -41,8 +41,9 @@ html,body {
        extend the height and widht 100%, this allows us
        to extend the height of the content to the bottom
        and the width of the header to the right
+       
+       NOTE: got rid of height, cause it made a stupid bar appear on the right side of the screen
     */
-    height:100%;
     width: 100%;
     background: #e6e3cf;
 }
