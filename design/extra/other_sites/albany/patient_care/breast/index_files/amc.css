@@ -1,0 +1,1585 @@
+/* Set up the page
+--------------------------------------------------------*/
+html body {
+  background:#fff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  margin-right:auto; 
+  margin-left:auto;
+  padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+
+  }
+/* html body, td, th, textarea, p {
+  font:normal 12px Arial, Helvetica, sans-serif;
+  voice-family: "\"}\"";
+  voice-family:inherit;
+  margin-right:auto; 
+  margin-left:auto;
+  }   */   
+  /* Commented out by A.Sanger: April 27,2006 */
+
+
+  
+html>body {
+  font-size:12px;
+  }
+  
+
+
+#Page{
+	background:#fff;
+	width: 750px;
+	top:0;
+	margin:auto;
+	}
+
+/* ---- Headers  ------ */	
+
+
+h4.black{
+
+        margin:0px 0px 5px 0px;
+        padding:0px;
+        FONT-FAMILY: Times New Roman;
+        font-size:18px;
+        line-height:18px;
+        font-weight:700;
+        color:#000000;
+        }
+
+
+
+h4.white{
+
+
+        margin:0px 0px 5px 0px;
+        padding:0px;
+        FONT-FAMILY: Times New Roman;
+        font-size:18px;
+        line-height:18px;
+        font-weight:700;
+        color:#FFFFFF;
+        }
+
+
+
+
+/*Logo
+-------------------------------------------*/
+#logo_College{
+	background:url("images/college_logo_cms.gif");
+	width:274px;
+	height:76px;
+	float:left;
+	text-indent:-3000px;
+}
+
+#logo_Center{
+	background:url("images/amc_logo_cms.gif");
+	width:274px;
+	height:76px;
+	float:left;
+	text-indent:-3000px;
+
+}
+
+
+
+#logo{
+	width:274px;
+	height:76px;
+	float:left;
+	text-indent:-3000px;
+
+}
+
+/* Utility Menu
+------------------------------------------*/
+
+#utility_nav {
+	font-size: 10px; 
+	color: #003366; 
+	font-family: arial, helvetica, sans-serif; 
+	text-decoration: none;
+	width:197px;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+#utility_nav a{ 
+	color: #003366; 
+	text-decoration: none;
+	font-weight:bold;
+}
+#utility_nav a:hover {
+	color: #9dbec7; 
+	text-decoration: none
+}
+
+#utility_nav .on{
+		color: #8d8e8e; 
+}
+
+
+/*Search
+---------------------------------------------------------*/
+#search_left{
+	background:url("images/amc_search_left.gif") no-repeat;
+	margin:0;
+	padding:0;
+	width:197px;
+	padding:0px 0 0 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#search_right{
+	background:url("images/amc_search_right.gif") no-repeat right 0px;
+	margin:0;
+	width:197px;
+	padding:7px 0 11px 0;
+	
+}
+#search_right .go{
+	background:url("images/amc_go.gif");
+	height:18px;
+	width:39px;
+	border:none;
+}
+
+#search_right form{
+	margin:0;
+	padding:0;
+}
+
+#search_right input{
+	border: 1px solid #336666;
+
+}
+#search_right a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #495063;
+	font-weight:bold;
+	text-decoration:none;
+
+}
+
+.go{
+	background:url("images/amc_go.gif");
+	height:18px;
+	width:39px;
+	border:none;
+}
+/* Top Nav
+--------------------------------------*/
+#top_nav{
+	width:745px;
+	clear:both;
+	background:url("images/AMC_top_bar.gif") repeat-x;
+	font-size:10px;
+	padding:6px 0 3px 5px;
+	height:19px;
+	color:#fff;
+	margin:0;
+	font-weight: bold;
+}
+
+#top_nav a{
+	color:#fff;
+	text-decoration:none;	
+}
+
+#top_nav .on{
+	color:#a1bdbb;
+}
+
+#top_nav a:hover{
+	color:#a1bdbb;
+}
+/* Teal Bar
+--------------------------------------*/
+#teal_bar{
+	background:url("images/AMC_teal_bar.jpg") repeat-x;
+	width:747px;
+	text-align:right;
+	padding:3px 3px 0 0;
+	height:21px;
+	margin:0;
+}
+
+#teal_bar a{
+	color:#0F2575;
+	font-weight:bold;
+	background:url("images/arrow.gif") no-repeat right 3px;
+	padding-right:15px;
+	padding-top: 1px;
+	margin-left:10px;
+	text-transform:uppercase;
+	text-decoration:none;
+}	
+
+#teal_bar a:hover{
+	color:#fff;
+	font-weight:bold;
+	background:url("images/arrow.gif") no-repeat right 3px;
+	padding-right:15px;
+	padding-top: 1px;
+	margin-left:10px;
+	text-transform:uppercase;
+	text-decoration:none;
+}	
+	
+
+
+/*Body - sets up the right nav background
+----------------------------------------------*/
+/*#body{
+	background:url("images/right_nav_bk.gif") repeat-y right;
+	width:749px;
+	display:table;
+	border-bottom:1px solid #D1C9C2;
+	border-left:1px solid #D1C9C2;
+	padding-bottom:10px;
+
+}*/
+
+
+
+#Body{
+	width:749px;
+	border-bottom:1px solid #D1C9C2;
+	border-left:1px solid #D1C9C2;
+	float:left;
+	background:url("images/right_nav_bk2.gif") repeat-y right;
+	
+	
+	
+} 
+
+/* alternate body for pages without rh column */
+#body_no_right_column{
+	width:748px;
+	border-bottom:1px solid #D1C9C2;
+	border-left:1px solid #D1C9C2;
+	border-right:1px solid #D1C9C2;	
+}
+
+#Right_Column{
+	width:186px;
+	padding-bottom: 10px;
+	margin-left: 4px;
+	float:right;
+	
+}
+
+#HTML_Right_Column{
+	position:relative;
+	top: 0px;
+	width:179px;
+	float:right;
+	}
+
+
+/* Container for the page title bar and Pillars image */
+#Amanda{
+	width:550px;
+	height: 84px;
+	
+}
+
+/* Patient Services Page  added 5/08/07 by R.Dehamel */
+ 
+#patient_listing li{
+	padding:0px 0px 0px 0px; 
+	line-height: 4;
+}
+ 
+
+
+/* Right Nav
+--------------------------------------*/
+#right_nav{
+	width:185px;
+	float:right;
+	margin:0;
+	padding-top:20px;	
+}
+#sub_nav_header_left{
+	background:url("images/sub_nav_lft_corner.gif") no-repeat left 1px;
+	width:172px;
+	margin:auto;
+}
+
+
+#sub_nav_header{
+	background: url("images/sub_nav_rt_corner.gif") right 1px no-repeat;
+	padding:0;
+	text-transform:uppercase;
+	padding:5px 5px 5px 5px;
+	width:162px;
+	display:table;
+	
+}
+
+#sub_nav_header a{
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-decoration:none;
+	float:left;
+	margin:0;
+	background:url("images/arrow.gif") no-repeat right bottom;
+	padding-right:15px;
+	clear:right;
+}
+
+
+#sub_nav{
+	background:#fff;
+	border:1px solid #a1bdbb;
+	border-top:none;
+	width:160px;
+	margin:0 auto;
+	padding:5px;
+	
+}
+#sub_nav ul{
+	padding:0;
+	margin:0;
+}
+
+#sub_nav ul li{
+	padding:2px 0px 2px 0px;  /* added 5/22/06 by A.Sanger  */
+	margin:0;
+	list-style-type:none;
+	background:url("images/blue_dot.gif") no-repeat 0px 8px;
+	padding-left:5px;
+}
+#sub_nav ul li.level2{
+	padding:2px 0px 2px 0px;  /* added 5/22/06 by A.Sanger  */
+	margin:0;
+	list-style-type:none;
+	background:url("images/blue_dot.gif") no-repeat 0px 8px;
+	margin-left:15px;
+	padding-left:5px;
+}
+#sub_nav ul li.level3{
+	padding:2px 0px 2px 0px;  /* added 5/22/06 by A.Sanger  */
+	margin:0;
+	list-style-type:none;
+	background:url("images/blue_dot.gif") no-repeat 0px 8px;
+	margin-left:30px;
+	padding-left:5px;
+}
+#sub_nav ul li.level4{
+	padding:2px 0px 2px 0px;  /* added 5/22/06 by A.Sanger  */
+	margin:0;
+	list-style-type:none;
+	background:url("images/blue_dot.gif") no-repeat 0px 8px;
+	margin-left:45px;
+	padding-left:5px;
+}
+
+#sub_nav  a{
+	color:#34405B;
+	text-decoration:none;
+	font-size:11px;  /* was 10px - Sangera */
+	font-weight:bold; 
+	/* line-height: 16px;   new line as of 4/6/06 - Sangera */ 
+}
+
+#sub_nav  a:hover{
+	color:#a1bdbb;
+}
+
+#sub_nav a.on{
+	color:#a1bdbb;
+	text-decoration:none;
+	}
+#sub_nav a.link{
+	color:#a1bdbb;
+	text-decoration:none;
+	}
+
+
+
+/* Pillars
+--------------------------------------*/
+#pillars{
+	background:url("images/pillars.jpg") no-repeat;
+	width:553px;
+	height:48px;
+	float:left;
+}
+
+
+/* Page Header
+--------------------------------------*/
+#page_header{
+	background:url("images/page_header.gif") repeat-x;
+	width:553px;
+	text-align:center;
+	padding:6px 0;
+	margin:0;
+	height:24px;
+	float:left;
+}
+
+#page_header h2{
+	color:#5D4B40;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	margin:0;
+	text-transform:uppercase;
+}
+/* Bread Crumbs
+--------------------------------------*/
+#breadcrumbs {
+font-family: Arial, Helvetica, sans-serif; 
+font-size: 9px; 
+color: #8d8e8e;
+margin-bottom:10px;
+margin-top:4px;
+}
+
+#breadcrumbs a{
+color: #8d8e8e;
+text-decoration:underline;
+}
+
+
+
+
+/* Content
+--------------------------------------*/
+#content{
+	color:#34405B;
+	padding:0px 5px 12px 8px;
+	margin:3px;
+	width:534px; 
+	float:left;
+	/*display:table;*/
+}
+
+
+
+#content h1{
+	font-weight:bold;
+	color:#34405B;
+	font-size:110%;
+	margin:0;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+
+
+#content2{
+	color:#34405B;
+	width:524px;
+	padding-left: 10px;
+	}
+#content2 h1{
+	font-weight:bold;
+	color:#34405B;
+	font-size:110%;
+	margin:0;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}	
+
+
+/*keeps the content open*/
+#faux_height{
+ height:0px; 
+ float:left;
+ width:1px;
+}
+
+#text{
+	float:left;
+	}
+	
+#text a{
+	color:#0C2577;   /* added 4/27/06 by A. Sanger */
+	}
+
+#text ul li{
+	padding:3px 0px 3px 0px;  /* added 5/22/06 by A.Sanger  */
+	
+}
+
+
+/* Related Links
+----------------------------------------------*/
+
+#related_links{
+	float:right;
+	width:182px; 
+	margin:12px 0px;
+	background:url("images/related_links_bottom.gif") bottom no-repeat;
+	padding-left:10px;
+}
+
+
+#related_links_top{
+	background:url("images/related_links_top.gif") no-repeat;
+	padding:35px 10px 10px 10px;
+}
+
+#related_links_top h4{
+	text-indent:-3000px;
+	margin:0;
+	line-height:1px;
+}
+
+#related_links_top a{
+	display:block;
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:normal;
+	background:url("images/blue_dot.gif") no-repeat 0px 8px;
+	padding:2px 0px 2px 5px;
+}
+
+
+/* Page level stuff under the right nav
+----------------------------------------*/
+#page_level{
+	float:right;
+	width:180px;
+	margin:12px 0;
+	
+}
+
+
+#maps{
+	background:url("images/RightCol_buttons/maps.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#maps a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+
+#Schaffer{
+	background:url("images/RightCol_buttons/Schaffer.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#Schaffer a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#College{
+	background:url("images/RightCol_buttons/College.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#College a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+#College2{
+	background:url("images/RightCol_buttons/College.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	margin-left: 5px;
+	height:45px;
+}
+
+#College2 a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+
+#Prize{
+	background:url("images/RightCol_buttons/College.gif") no-repeat;
+	padding-left:40px;
+	padding-top:2px;
+	margin-bottom: 9px;
+	height:45px;
+}
+
+#Prize a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#Sakai{
+	background:url("images/RightCol_buttons/Sakai.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#Sakai a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+#kids{
+	background:url("images/RightCol_buttons/childrens_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#kids a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#pdf{
+	background:url("images/RightCol_buttons/pdf_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#pdf a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#pdf_college{
+	background:url("images/RightCol_buttons/pdf_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#pdf_college a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#dr{
+	background:url("images/RightCol_buttons/dr_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#dr a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#divinci{
+	background:url("images/RightCol_buttons/divinci_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+	}
+
+#divinci a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+	}
+
+/* this button has an image of a stethoscope */
+#stethoscope {
+	background:url("images/RightCol_buttons/stethoscope_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+	}
+#stethoscope a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+/* magnify glass button */
+#magnify {
+	background:url("images/RightCol_buttons/magnify_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+	}
+#magnify a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* this button has an image of the CDT tree */
+#tree {
+	background:url("images/RightCol_buttons/Donation_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+	}
+#tree a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+ 
+
+
+/* Phone directory in blue */
+#Phone_Hospital{
+	background:url("images/RightCol_buttons/Phone_directory_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:5px;
+	height:45px;
+	}
+
+#Phone_Hospital a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	}
+	
+
+/* Phone directory in red */
+#Phone_College{
+	background:url("images/RightCol_buttons/Phone_directory_college_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:5px;
+	height:45px;
+	}
+
+#Phone_College a{
+	color:#990033;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	}
+	
+/* this button has an image of movie camera */
+#movie {
+	background:url("images/RightCol_buttons/seminar_videos_bttn.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+	}
+#movie a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* this button has an image of DNA Helix */
+#ClinicalTrial {
+	background:url("images/RightCol_buttons/button_clinical_trial.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+	}
+#ClinicalTrial a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* use this button the NYIC conference */
+#NYIC {
+	background:url("images/RightCol_buttons/NYIC_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+	}
+#NYIC a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+/* Page level stuff- in place of right navigation (A.Sanger 5/15/06)
+--------------------------------------------------------------------*/
+#page_level2{
+	float:right;
+	width:182px;
+	margin:10px 0;
+}
+
+
+#maps2{
+	background:url("images/RightCol_buttons/maps.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#maps2 a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+
+}
+
+
+
+
+
+
+
+
+
+/*Footer
+-------------------------------------*/
+
+#footer {
+	color: #8d8e8e; 
+	padding-left:5px;
+	font-size:11px;
+	clear:both;
+}
+#footer a {
+	color: #003366;
+	text-decoration: none;
+	font-size:10px;
+}
+#footer a:hover {
+	color: #9dbec7;
+	text-decoration: none;
+}
+
+#footer p{
+	padding:0px 0;
+	margin:4px 0;
+}
+
+#footer a.greylink{
+	color: #8d8e8e; 
+}
+
+#footer .on{
+	font-weight:bold;
+	font-size:10px;
+}
+
+#footer a.webmaster{
+	color: #8d8e8e;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+
+
+/* Standard Classes
+-------------------------------------*/
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+.smalltext {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#333333;
+}
+
+
+
+/*Home Page 
+---------------------------------------*/
+#body_home{
+	padding-top:55px;
+	background:url("images/amc_home_back.jpg") no-repeat;
+	display:table;
+	margin:0;
+	width:750px;
+}
+.photo_box{
+	width:143px;
+	float:left;
+	}
+.left_photo_box{
+	width:153px;
+	float:left;
+
+	}
+	
+a.mainHomeNavImageLink{
+	display:block;
+	height:109px;
+	width:142px;	
+}
+a.educationHomeLink{
+	background:url("images/sectionLinkImages/education_neutral.gif") no-repeat;
+}
+a.educationHomeLink:hover{
+	background:url("images/sectionLinkImages/education_highlight.gif") no-repeat;
+}
+a.physicianServiceHomeLink{
+	background:url("images/sectionLinkImages/physician_service_neutral.gif") no-repeat;
+}
+a.physicianServiceHomeLink:hover{
+	background:url("images/sectionLinkImages/physician_service_highlight.gif") no-repeat;
+}
+a.patientCareHomeLink{
+	background:url("images/sectionLinkImages/patient_care_neutral.gif") no-repeat;
+}
+a.patientCareHomeLink:hover{
+	background:url("images/sectionLinkImages/patient_care_highlight.gif") no-repeat;
+}
+a.researchHomeLink{
+	background:url("images/sectionLinkImages/research_neutral.gif") no-repeat;
+}
+a.researchHomeLink:hover{
+	background:url("images/sectionLinkImages/research_highlight.gif") no-repeat;
+}
+	
+#photo_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	letter-spacing: -.4px;
+	padding-left: 3px;
+	padding-right: 1px;
+	font-weight:bold;
+	color: #2B3C55;
+}
+ 
+#photo_text a{
+color:#737981;
+}
+ 
+#photo_text a:link{
+color:#ffffff;
+text-decoration:none;
+}
+ 
+#photo_text a:visited{
+color:#ffffff; 
+text-decoration:none;
+}
+ 
+#photo_text a:hover{
+color:#0C2577;
+text-decoration:none;
+}
+ 
+#photo_text a:active{
+color:#0C2577;
+text-decoration:none;
+}
+#home_news{
+	width:500px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: 10pt;
+	color: #ffffff;
+}
+
+#home_news a{
+	display:block;
+	color:#495063;
+	text-decoration: none;
+}
+#home_news a:hover{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+.p1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: 800;
+	font-stretch:ultra-condensed;
+	text-indent: 10px;
+	margin-top: -2px;
+	color: #203A81;
+  
+  }
+
+
+/* Landing Pages
+---------------------------------------*/
+#right_column{
+	float:right;
+	width:182px;
+	margin:12px 0;
+	margin-top:-70px;
+}
+
+/* Wide masterpage classes
+---------------------------------------*/
+
+a.Nav:link {
+	color: #003366;
+	text-decoration: none;
+	}
+	
+a.Nav:active {
+	color: #003366;
+	text-decoration: none;
+	}
+	
+a.Nav:visited {
+	color: #003366;
+	text-decoration: none;
+	}
+	
+a.Nav:hover {
+	color: #ffffff;
+	text-decoration: none;
+	}
+	
+	
+	
+/*  More right navigation buttons */
+/*--------------------------------*/
+
+/* Dancing in the Woods */
+#Dancing{
+	background:url("images/RightCol_buttons/Dancing_button.gif") no-repeat;
+	padding-left:36px;
+	padding-top:10px;
+	height:30px;
+	margin-left: 5px;
+	
+}
+
+#Dancing a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* Melodies of Christmas */
+#Melodies{
+	background:url("images/RightCol_buttons/Melodies_button.gif") no-repeat;
+	padding-left:36px;
+	padding-top:3px;
+	height:45px;
+	margin-left: 5px;
+}
+
+#Melodies a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* Ways to Give - Donate Online */
+
+#GiveToday{
+	background:url("images/RightCol_buttons/give_today_01.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#GiveToday_alt1{
+	background:url("images/RightCol_buttons/give_today_alt1.gif") no-repeat;
+	padding-left:55px;
+	padding-top:15px;
+	height:45px;
+}
+
+#GiveToday_alt2{
+	background:url("images/RightCol_buttons/give_today_alt2.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+#GiveToday_alt3{
+	background:url("images/RightCol_buttons/give_today_alt3.gif") no-repeat;
+	padding-left:46px;
+	padding-top:15px;
+	height:45px;
+}
+
+#GiveToday a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+    
+#GiveToday_alt1 a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#GiveToday_alt2 a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+#GiveToday_alt3 a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}    
+
+/* RSS - Right Column Button */
+
+#RSS_button{
+	background:url("images/RightCol_buttons/RSS_button.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:45px;
+}
+
+#RSS_button a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+/* Samll pdf button */
+#pdf_small{
+	background:url("images/RightCol_buttons/Small_PDF_button.gif") no-repeat;
+	padding-left:36px;
+	padding-top:10px;
+	height:30px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+#pdf_small a{
+	color:#0C2577;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+/*************  Patient Care Contact Information Box  *****************/
+#PatientCare_contact_box {
+    background:url("images/PatientCare_Contact.gif") no-repeat;
+   	padding-left:7px;
+	padding-top:10px;
+	height:120px;
+	width: 166px;
+	color:#666666;
+	font-size: 95%;
+	padding-left: 10px;
+}
+
+.PatientCare_contact_title{
+	color:#0C2577;	
+	font-size:11px;
+	padding-left:25px;
+	font-weight:bold;
+}
+
+.PatientCare_contact_body{
+	color:#666666;	
+	font-size:11px;
+	padding-left:5px;
+	padding-top: 23px;
+}
+
+
+/*************  Compass Box  *****************/
+#compass_box {
+    background:url("images/RightCol_buttons/amc_compass_button.gif") no-repeat;
+	height:120px;
+	width: 166px;
+	color:#0C2577;
+	font-size: 95%;
+	padding-left: 10px;
+	padding-top:10px;
+}
+
+.compass_box_title{
+	text-decoration:none;
+	font-size:11px;
+	padding-left:25px;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+
+.compass_box_body{
+	width: 150px;	
+	padding-top: 15px;
+}
+
+
+
+/*************  Physician Referral Box  *****************/
+#PhysRef_box {
+    background:url("images/phys_refer_box.gif") no-repeat;
+	height:120px;
+	width: 166px;
+	color:#666666;
+	font-size: 95%;
+	padding-left: 10px;
+	padding-top:10px;
+}
+
+.PhysRef_box_title{
+	color:#0C2577;	
+	text-decoration:none;
+	font-size:11px;
+	padding-left:25px;
+	font-weight:bold;
+}
+
+.PhysRef_box_body{
+	width: 150px;
+	color:#0C2577;		
+	font-size:11px;
+	margin-top: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #0C2577;
+}
+
+.PhysRef_box_phone {
+	color:#0C2577;
+	width: 150px;	
+	padding-top: 5px;	
+	font-size:150%;
+	text-align:center;
+	font-weight: bold;		
+	}
+
+
+/*** Right Nav Box with Tan header **/ 
+#TanHeaderBox_blank {
+	background:url("images/RightNavBox_TanHeader.gif") no-repeat;
+	padding-left:6px;
+	padding-top: 20px;
+	margin-left: 1px;	
+	height:70px;
+	width: 167px;
+	color: #34405B;
+	font-size: 90%;	
+	margin-bottom: 6px;
+	}
+
+#TanHeaderBox_blank .Tan_title {
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-top: -18px;
+	width: 170px;
+	clear:both;
+	margin-bottom: 5px;
+	}
+
+#TanHeaderBox_blank ul{
+	padding:0;
+	padding-left: 3px;
+	margin:0;
+}
+
+#TanHeaderBox_blank ul li{
+	padding:2px 0px 2px 0px;  
+	margin:0;
+	list-style-type:none;
+	background:url("images/blue_dot.gif") no-repeat 0px 8px;
+	padding-left:10px;
+}
+
+
+#TanHeaderBox_blank  a{
+	color:#34405B;
+	text-decoration:none;
+	font-size:11px; 
+	font-weight:bold; 
+}
+
+#TanHeaderBox_blank  a:hover{
+	color:#a1bdbb;
+}
+
+#TanHeaderBox_blank a.link{
+	color:#a1bdbb;
+	text-decoration:none;
+	}
+
+
+
+
+/***  Contact Us Information box for right column ***/
+/***  added 5/31/07                               ***/
+#ContactUs {
+	background:url("images/RightCol_buttons/contact_us_01.gif") no-repeat;
+	padding-left:40px;
+	padding-top:10px;
+	height:260px;
+	}
+	
+/***  Contact Us Information box for right column ***/
+/***  added 6/14/07                               ***/
+#ContactUs_blank {
+	background:url("images/RightCol_buttons/contact_us_blank.gif") no-repeat;
+	padding-left:6px;
+	padding-top: 20px;
+	margin-left: 1px;	
+	height:260px;
+	color: #34405B;
+	font-size: 90%;	
+	}
+
+#ContactUs_long_blank {
+	background:url("images/RightCol_buttons/contact_us_blank_long.gif") no-repeat;
+	padding-left:6px;
+	padding-top: 20px;
+	margin-left: 1px;	
+	height:288px;
+	color: #34405B;
+	font-size: 90%;	
+	}
+	
+#ContactUs_PR {
+	background:url("images/RightCol_buttons/contact_us_pr.gif") no-repeat;
+	padding-left:6px;
+	padding-top: 20px;
+	margin-left: 1px;	
+	height:260px;
+	color: #34405B;
+	font-size: 90%;	
+/*  border-color:#FF0000 1px solid; */
+	border-color:#FF0000;
+	}
+
+/*** PR ***/
+
+#pr_related_links{
+	background:url("http://stage.www.amc.edu/SERENA_TEST/PR/images/contact.gif") no-repeat;
+	padding-left:2px;
+	padding-top: 20px;
+	margin-top: 5px;
+	margin-left: 5px;	
+	height:260px;
+	color: #34405B;
+	font-size: 90%;	
+/*  border-color:#FF0000 1px solid; */
+	border-color:#FF0000;
+}
+
+h5.pr_related_links{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#34405B;
+	font-size:12px;
+	margin-bottom:2px;
+	margin-top:10px;
+	margin-right:4px;
+	margin-left:0px;
+
+}
+.white_news {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 10pt;
+	font-weight:bold;
+	color: #ffffff;
+}
+
+
+
+/*** The Maps and Directions Page ***/
+
+#directions { width: 300px;  }
+
+#BlueBar_Box1 {
+	width: 500px;
+	margin: 0 auto;
+	border: 1px #003366 solid;
+	}
+
+#BlueBar_top1 {	
+	width: 500px;	
+	background-color: #003366;
+	border: #4D67A0 1px solid;			
+	}
+		
+#BlueBar_Box2 {
+	width: 500px;
+	margin: 0 auto;
+	border: 1px #003366 solid;
+	}
+
+#BlueBar_top2 {	
+	width: 500px;	
+	background-color: #003366;
+	border: #4D67A0 1px solid;			
+	}
+
+#BlueBar_halfBox1 {
+	width: 245px;
+	height: 150px;
+	margin: 0 auto;
+	border: 1px #003366 solid;
+	}
+
+#BlueBar_halfBox2 {
+	width: 245px;
+	height: 360px;
+	margin: 0 auto;
+	border: 1px #003366 solid;
+	}
+
+
+#BlueBar_halftop1 {	
+	width: 254px;
+	height: 27px;
+	background-color: #003366;
+	border: #4D67A0 1px solid;			
+	}
+
+
+h5.White{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	font-size:12px;
+	margin-bottom:4px;
+	margin-top:4px;
+	margin-right:4px;
+	margin-left:4px;
+}
+
+#BlueBar_halfBox1_short {
+	width: 248px;
+	height: 360px;
+	margin: 0 auto;
+	border: 1px #003366 solid;
+	}
+
+#transfer
+{
+	/*[disabled]border: 1px solid #D71F1F;*/
+	background: url("http://www.amc.edu/serena%5Ftest/portal/transfer_center/images/transfer_center_callout_01.gif") no-repeat;
+	padding: 7px;
+	text-align: center;
+	float: left;
+	font: normal normal bold 9.3pt;
+	width: 156px;
+	height: 80px;
+}
+
+#transfer A
+{
+	text-decoration: none;
+	font: normal small-caps bold 9.7pt Arial;
+	color: #3A1AAF;
+	display: block;
+}
+
+#bigbold
+{
+	/*[disabled]border: 1px solid red;*/
+	display: inline;
+	font: normal normal bolder 14pt Arial;
+}
+
+.college_banner
+{
+    background-image: url("/SERENA_TEST/Research/images/section_header_1px_slice_02.gif");
+	background-repeat:repeat-x; 
+	color:#000000;
+	font-size:13px;
+	vertical-align:middle;
+	font-weight:bold;
+	padding:3px;
+	border:1px solid #C7BFBB;
+}
+
+.college_banner a
+{
+	text-decoration:none;
+	color:#000000;	
+
+}
+
+.college_banner_academic
+{
+    background-image: url("/SERENA_TEST/Research/images/section_header_1px_slice_02.gif");
+	background-repeat:repeat-x; 
+	color:#003366;
+	font-size:14px;
+	vertical-align:middle;
+	font-weight:bold;
+	padding:3px;
+	border:1px solid #C7BFBB;
+}

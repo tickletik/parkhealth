@@ -1,0 +1,27 @@
+BODY {
+	color: Black;
+	background-color: White;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif, sans-serif;
+	font-size: 10pt;
+}
+
+A {
+	color: Blue;
+	text-decoration: none;
+}
+
+A:HOVER {
+	color: #3300FF;
+	text-decoration: underline overline;
+	font-style : normal;
+}
+
+TD {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+HR {
+	color: Silver;
+}
+

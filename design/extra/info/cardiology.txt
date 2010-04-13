@@ -1,0 +1,27 @@
+
+Cardiology and Vascular 
+
+	Description:
+
+	Services:
+		Cardiology:
+			E.K.G.
+			Echocardiography
+			Halter Monitor
+			Stress Thalium
+			Nuclear Cardiology
+
+		Cardiovascular:
+			Carotid Duplex
+			Lower Extremity Arterial Duplex
+			Lower Extremity Venous Duplex 
+			Lower Extremity Arterial Doplar
+			Aortic Abdominal Aneurysm
+			Renal Artery Stenosis
+			
+
+	Staff:
+		Gerson Gomes
+		Jay Lee
+		Asif Rehman
+

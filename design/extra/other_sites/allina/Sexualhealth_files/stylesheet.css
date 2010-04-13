@@ -1,0 +1,1602 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Tables and Cells */
+
+
+#contentable  {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ color: #000000;
+ padding-left: 10px;
+ }
+ 
+ #contentable td {
+ padding-left: 10px;
+ }
+ 
+#contentable td A:link {
+ color: #0000CC;
+ text-decoration: underline;
+}
+ 
+#contentable td A:visited {
+ color: #663399;
+ text-decoration: underline;
+}
+ 
+#contentable td A:hover {
+ color: #003399;
+ text-decoration: underline;
+}
+
+#leftnav  {
+	width: 160px;
+	background-color: #ccddee;
+}
+
+/* Header Table Properties */
+
+#headertable {
+	background-color: #BBBBDD;
+	width: 100%;
+}
+
+#headercolumn1 {
+	width: 200px;
+}
+
+#headercolumn2 {
+	width: 262px;
+	text-align: left;
+	position: absolute;
+	left: 250px;
+}
+
+#headercolumn3 {
+	text-align: right;
+	position: relative;
+}
+
+/* Top Navigation */
+
+#topblue   {
+	display: inherit;
+}
+
+#navtable {
+ 	background-color: #BBBBDD;
+	text-align: center;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	height: 20px;
+ }
+
+#navcolumn1 {
+ 	border-right: 1px solid #fff;
+	width: 75px;
+}
+
+#home #navcolumn1 {
+ 	background-color: #CCDDEE;
+} 
+
+#navcolumn1 a:hover {
+ 	width: 100%;
+	background-color: #000066;
+	border-top: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+}
+/********************************changed*******************************/
+#navcolumn2 {
+ 	border-right: 1px solid #fff;
+	width: 115px;
+}
+/********************************changed*******************************/
+#care #navcolumn2 {
+   	background-color: #CCDDEE;
+}
+
+#navcolumn2 a:hover {
+ 	width: 100%;
+	background-color: #000066;
+	border-top: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+}
+
+#navcolumn3 {
+ 	border-right: 1px solid #fff;
+	width: 235px;
+}
+
+#conditions #navcolumn3 {
+   	background-color: #CCDDEE;
+}
+
+#navcolumn3 a:hover {
+ 	width: 100%;
+	background-color: #000066;
+	border-top: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+}
+
+#navcolumn4 {
+ 	border-right: 1px solid #fff;
+	width: 120px;
+}
+
+
+#BeHealthy #navcolumn4 {
+   	background-color: #CCDDEE;
+}
+
+#navcolumn4 a:hover {
+ 	width: 100%;
+	background-color: #000066;
+	border-top: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+}
+
+#navcolumn5 {
+ 	border-right: 1px solid #fff;
+	width: 130px;
+}
+
+#AboutAllina #navcolumn5 {
+        background-color: #CCDDEE;
+}
+
+#navcolumn5 a:hover {
+ 	width: 100%;
+	background-color: #000066;
+	border-top: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+}
+
+#navcolumn6 {
+	border-right: 1px solid #fff;
+	width: 135px;
+	text-align: center;
+}
+
+#ForProviders #navcolumn6 {
+        background-color: #CCDDEE;
+}
+
+#navcolumn6 a:hover {
+ 	width: 100%;
+	background-color: #000066;
+	border-top: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+}
+
+#navcolumn7 {
+        background-color: #55559F;
+        border-right: 1px solid #fff;
+       width: 100px;
+        text-align: center;
+        font-style: italic;
+}
+
+#navcolumn7 a:link, #navcolumn7 a:visited {
+        color: #ffffff;
+}
+
+#navcolumn7 a:hover {
+        width: 100%;
+        background-color: #000066;
+        border-top: 1px solid #000066;
+        border-bottom: 1px solid #000066;
+}
+
+ 
+ /* Homepage top content table*/
+
+#toptable td {
+	vertical-align: top;
+	horizontal-align: left;
+
+ }
+ 
+#topcolumn1 { /* flash animation will go here */
+	border-top: 1px solid #BBBBDD;
+	background-color: #BBBBDD;
+	padding: 0px;
+}	
+ 
+#topcolumn2 { 
+      border-top: 1px solid #BBBBDD;
+      border-left: 1px solid #BBBBDD;
+      padding-left: 8px;
+	  vertical-align: top;
+}
+
+
+#topcolumn3 {
+	border-top: 1px solid #BBBBDD;
+	border-left: 1px solid #BBBBDD;
+	padding: 0 0 0 8px;
+}
+
+#bottomcolumn1 {
+	border-top: 1px solid #BBBBDD;
+	border-bottom: 1px solid #BBBBDD;
+	padding: 8 8 0 8px;
+	vertical-align: top;
+}
+
+#bottomcolumn2 {
+	border-top: 1px solid #BBBBDD;
+	border-bottom: 1px solid #BBBBDD;
+	padding: 8 8 0 8px;
+	vertical-align: top;
+}
+
+#bottomcolumn3 {
+	border-top: 1px solid #BBBBDD;
+	border-bottom: 1px solid #BBBBDD;
+	padding: 8 8 0 8px;
+	vertical-align: top;
+}
+
+#featuredlinkheader {
+	border: 0;
+	padding: 8 8 0 26px;
+	vertical-align: top;
+}
+
+#featuredlink {
+	border-bottom: 1px solid #BBBBDD;
+	padding: 8 8 0 8px;
+	vertical-align: top;
+}
+
+
+/* Homepage gateway table and disclaimer */ 
+/********************************changed*******************************/
+#homegatewaytable {
+	padding: 0px
+}
+/********************************changed*******************************/
+#gatewaycolumn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displays at 8px */
+}
+
+
+/* Main content table on gateway pages */
+
+#gatewaymain {
+	vertical-align: top;
+	horizontal-align: left;
+	width: 100%;
+ }
+ 
+#gatewaymaincolumn1 {
+	padding: 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displays at 8px */
+	vertical-align: top;
+	width: 230px; 
+}	
+ 
+#gatewaymaincolumn2 { 
+	padding: 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displays at 8px */
+	vertical-align: top;
+	width: 190px; 
+}
+
+#gatewaymaincolumn3 {
+	padding: 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displays at 8px */
+	vertical-align: top;
+	width: 190px; 
+}
+
+#gatewaymaincolumn4 {
+	padding: 8px;
+	vertical-align: top;
+	horizontal-align: center;
+}
+
+
+/* Main Content Table Properties */
+
+#maintable td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: top;
+ }
+
+#farleftcolumn {
+ 	width: 150px;
+	background-color: #99BBDD;
+	font-size: 68.75%;
+}
+ 
+#middletopcell {
+    padding: 8px;
+ 	width: 420px;
+	font-size: 68.75%;
+ }
+ 
+#contentleft {
+ 	width: 210px;
+ }
+ 
+#contentmiddle {
+ 	width: 210px;
+ }
+ 
+#contentmain td {
+	padding-left: 10px;
+}
+ 
+#contentright {
+	width: 190px;
+	padding-left: 10px;
+	padding-right: 10px;
+ }
+ 
+#farrightcolumn {
+	padding: 8px;
+ 	width: 190px;
+	font-size: 68.75%;
+ }
+ 
+#leftnav  {
+width: 160px;
+background-color: #ccddee;
+}
+ 
+ /* Form main table */
+ 
+ #formtable  {
+ 	background-color: #CCDDEE;
+}
+
+#formtablewhiteborder  {
+        background-color: #CCDDEE;
+        border: 2px solid #FFFFFF;
+}
+
+#formtablewhiteborderlight  {
+        background-color: #E6EEF7;
+        border: 3px solid #FFFFFF;
+}
+
+
+ 
+ /* Far right table with action links*/
+ 
+  #actiontable1 { /*this is the top of the table*/
+ 	background-color: #BBBBDD;
+	text-align: center;
+	border: 1px solid #000066;
+	width: 100%;
+ }
+ 
+   #actiontable2 { /*this is the bottom of the table with the links*/
+ 	background-color: #FFF;
+	text-align: left;
+	border-right: 1px solid #000066;
+	border-left: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+	width: 100%;
+ }
+ /* Left Navigation */
+
+#navcontainer /* This is for most subnav links (except the very first one)*/
+{
+	width: 160px;
+}
+
+#navcontainer a
+{
+	display: block;
+	padding: 4px;
+	background-color: #ccddee;
+	border-bottom: 1px solid #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+}
+
+#navcontainer a:link, #navlist a:visited
+{
+	color: #000066;
+	text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+	background-color: #000066;
+	color: #fff;
+}
+
+#navcontainertop /* The only difference with this one is that it adds a line above and below- for single links in the left nav */
+{
+	width: 160px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navcontainertop a 
+{
+	display: block;
+	padding: 4px;
+	background-color: #ccddee;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+}
+
+#navcontainertop a:link, #navlist a:visited
+{
+	color: #000066;
+	text-decoration: none;
+}
+
+#navcontainertop a:hover, #navcontaineryouarehere a:hover, #navcontaineryouareheretop a:hover
+{
+	background-color: #000066;
+	color: #fff;
+}
+#navcontaineryouarehere a
+{
+	display: block;
+	padding: 4px;
+	background-color: #bbbbdd;
+	border-bottom: 1px solid #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+}
+
+#navcontaineryouareheretop a
+{
+	display: block;
+	padding: 4px;
+	background-color: #bbbbdd;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+}
+
+#navcontainerlogo  
+{
+	display: block;
+	text-align: center;
+	padding: 6px 0px 6px 0px;
+	border-bottom: 1px solid #FFF;
+	background-color: #ccddee;
+	
+}
+
+#navcontainerlogogrey 
+{
+	display: block;
+	text-align: center;
+	padding: 6px 0px 6px 0px;
+	background-color: #e9e9e9;
+}
+
+#navcontainerbackto a /* for back to hospital, etc. links after left navigation */
+{
+	display: block;
+	padding: 8px 4px 4px 4px;  
+	background-color: #ccddee;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .6em; /* displayed at 6px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+	background-image:     url(/img4/arrow_left.gif);
+	background-repeat: no-repeat;
+	background-position: 0 .6em .5em;
+}
+
+#paddingright { /* for table cells that need right padding of 10 */
+	padding: 0px 10px 0px 0px;
+}
+
+#paddingleft { /* for table cells that need right padding of 10 */
+	padding: 0px 0px 0px 10px;
+}
+
+#paddingboth { /* for table cells that need right padding of 10 */
+	padding: 0px 10px 0px 10px;
+}
+
+#paddingtopandleft { /* for table cells that need right padding of 10 */
+	padding: 10px 10px 0px 10px;
+}
+
+#paddingtopandboth { /* for table cells that need right padding of 10 */
+	padding: 0px 10px 0px 10px;
+}
+
+#contact1 {  /* for hospitals contact us page */
+	width: 100%;
+	border: 1px solid #bbbbdd;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	padding: 0;
+	margin: 0;
+}
+
+.blue {
+	padding: 5px;
+	background-color: #ccddee;
+	margin: 0;
+	vertical-align: top;
+	align: left
+}
+
+.blue2 {
+	padding: 5px;
+	background-color: #ccddee;
+	border-right: 1px solid #bbbbdd;
+	margin: 0;
+	vertical-align: top;
+}
+
+.white {
+	padding: 5px;
+	margin: 0;
+	vertical-align: top;
+}
+
+.white2 {
+	padding: 5px;
+	border-right: 1px solid #bbbbdd;
+	margin: 0;
+	vertical-align: top;
+}
+
+.verticaldivide {
+	border-left:  1px #bbbbdd;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Text Formatting */
+
+p  {
+	margin-bottom: 0.7em;
+	margin-top: 0.5em; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	color: #000000;
+	text-decoration: none; 
+}
+
+span  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	color: #000000;
+	text-decoration: none;
+ }
+
+  .contenttext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	color: #000000;
+	text-decoration: none;
+ }
+  
+  .contenttextbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+ }
+ 
+   
+  .bluetextbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	color: #000066;
+	font-weight: bold;
+	text-decoration: none;
+ }
+ 
+ .date {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: .8em; /* displayed at 11px */
+	font-weight: bold; 
+	text-align: center;   
+}
+
+ .letter {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-size: 1.2em; /* displayed at 11px */
+	font-weight: bold;  
+}
+ 
+ h1 {
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+     font-size: 1.1em; /* displayed at 11px */
+     font-weight: bold;
+     color: #000066;
+     text-decoration: none;
+     line-height: normal;
+     padding-bottom: 4px;
+     margin: 0;
+} 
+
+ 
+ h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em; /* displayed at 9px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+	line-height: normal;
+	padding-bottom: 3px;
+	margin: 0;
+}
+
+ h2 a:link {
+	font-size: 1em; /* displayed at 9px */
+	font-weight: normal;
+	color: #0000CC;
+	text-decoration: underline;
+}
+
+ h2 a:visited {
+	font-size: 1em; /* displayed at 9px */
+	font-weight: normal;
+	color: #0000CC;
+	text-decoration: underline;
+}
+
+ h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+	line-height: normal;
+	padding-bottom: 3px;
+	margin: 0px;
+}
+
+
+ h4 {
+        display:block;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: .8em; /* displayed at 8px */
+        font-weight: bold;
+        text-align: left;
+        color: #000066;
+        background:       url(/img4/bluegradient.gif) repeat-y; /* image repeats
+ vertically */
+        margin: 6px 0px 10px 0px;
+}
+
+
+ h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+	line-height: normal;
+	padding-bottom: 4px;
+	padding-top: 12px;
+	margin: 0px;
+}
+
+.hospitalcontact  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 9px */
+	color: #000000;
+}
+
+.hospitalintro  {
+	margin-top: 0px;
+	margin-right: .4em;
+}
+
+
+A.nav:link {
+	FONT-SIZE: .7em; COLOR: #000099; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; line-height:normal; TEXT-DECORATION: underlined; 
+}
+A.nav:visited {
+	FONT-SIZE: .7em; COLOR: #639; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underlined; voice-family: inherit
+}
+A.nav:hover {
+	FONT-SIZE: .7em; COLOR: #039; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underlined; voice-family: inherit
+}
+
+A.navhead:link {
+	font-family: verdana, arial, helvetica, sans-serif; 
+	color: #000066; 
+	font-size: 1em; /* displayed at 8px */ 
+	font-weight: bold; 
+	line-height: normal;
+	margin-bottom: 7px;
+	padding-bottom: 7px;	
+}
+
+A.navhead:visited {
+	color: #639;		
+}
+
+A.navhead:hover {
+	color: #039;
+}
+
+.navlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #006666;
+	font-weight: bold;
+	font-size: .8em; /* displayed at 8px */
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+.navlink A:link {
+	color: #000066;
+	text-decoration: none;
+}
+
+.navlink A:visited {
+	color: #000066;
+	text-decoration: none;
+}
+
+.navlink A:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.bottomnavlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: .7em; /* displayed at 7px */
+	text-align: center;
+	text-decoration: none;	
+}
+
+.footeradam {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .7em /* displayed at 7px */
+}
+
+.blueheader {
+	display:block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	text-align: left;
+	color: #000066;
+	background:       url(/img4/bluegradient.gif) repeat-y; /* image repeats vertically */
+	margin: 6px 0px 10px 0px;
+} 
+
+
+.leftheader {
+	display:block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em; /* displayed at 11px */
+	font-weight: bold;
+	text-align: left;
+	color: #99BBDD;
+	background-color: #000066;
+	border-style: none;
+	height: 16px;
+	padding: 3px;
+	line-height: normal;
+} 
+
+#leftcontent { /* This is for non-linking content in the left gutter */
+	display: block;
+	padding: 3px 0px 3px 3px;
+	background-color: #99BBDD;
+	font-size: 1.1em; /* displayed at 11px */
+	color: #000066;
+	text-decoration: none;
+}
+
+.leftnavtextbold {
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #000066;
+	text-decoration: none;
+	font-size: 1.1em; /* displayed at 11px */
+	font-weight: bold;
+	line-height: normal;
+}
+
+/* Links */
+ 
+.link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em; /* i'm not sure why but this displays at 8px */
+	line-height: normal;
+	color: #0000CC;
+	text-decoration: underline;
+}
+
+.breadcrumb {
+	font-family:  Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	font-size: .7em; /* displayed at 7px */
+}
+
+.breadcrumb a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em; /* displayed at 7 px */
+	color: #0000CC;
+	text-decoration: underline;
+}
+
+td a:link,
+h3 a:link,
+span a:link,
+p a:link,
+.bottomnavlink a:link,
+.actionlink a:link,
+.listlinklessspace a:link,
+.listlinkmorespace a:link,
+.link a:link,
+.listlink a:link { 
+   color: #0000CC; 
+} 
+
+td a:visited,
+h2 a:visited,
+h3 a:visited,
+span a:visited,
+p a:visited,
+.bottomnavlink a:visited,
+.actionlink a:visited,
+.listlinklessspace a:visited,
+.listlinkmorespace a:visited,
+.link a:visited,
+.listlink a:visited{ 
+   color: #663399; 
+} 
+
+td a:hover,
+h2 a:hover,
+h3 a:hover,
+span a:hover,
+p a:hover,
+.bottomnavlink a:hover,
+.actionlink a:hover,
+.listlinklessspace a:hover,
+.listlinkmorespace a:hover,
+.link a:hover,
+.listlink a:hover,
+.breadcrumb a:hover { 
+   color: #003399; 
+} 
+
+
+.listlink{ /* Links in a vertical list-- gives extra space.  If the link wraps, use content link class for no extra space on that link */
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #0000CC;
+	text-decoration: underline;
+	font-size: .8em; /* displayed at 8px */
+	line-height: normal;
+	margin: 0px 0px 7px 0px;
+	padding: 0;	
+}
+
+.listlinkhome{ /*difference is that it's padded more on left side*/
+      font-family: verdana, arial, helvetica, sans-serif;
+      text-decoration: none;
+      font-size: .8em; /* displayed at 8px */
+      line-height: normal;
+      margin: 0px 0px 7px 0px;
+      padding-left: 18px; 
+}
+
+
+.listlinkhome a:visited {
+	color: #663399;
+}
+
+.listlinkhome a:hover {
+	color: #003399;
+}
+
+.listlinkmorespace{ /* To be used for a link in a list that needs to be set apart a little */
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #0000CC;
+	text-decoration: underline;
+	font-size: .8em; /* displayed at 8px */
+	line-height: 160%;
+	margin: 0;
+	padding: 7px 0 0 0;	
+}
+
+
+.listlinklessspace{ /* To be used for a link in a list that needs to be set apart a little */
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #0000CC;
+	text-decoration: underline;
+	font-size: .8em; /* displayed at 8px */
+	line-height: 160%;
+	margin: -10;
+	padding: 0 0 0 0;	
+}
+
+
+.actionlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em; /* i'm not sure why, but displays at 8px */
+	line-height: normal;
+	color: #0000CC;
+	text-decoration: underline;
+	padding: 0 0 20px 0;
+}
+
+.actionlinkhome {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em; /* displays at about 11 pixels */
+	font-weight: bold;
+	line-height: normal;
+	color: #000099;
+	text-decoration: none;
+	padding: 0 0 20px 0;
+}
+
+.actionlinkhome a:link {
+	color: #000099;
+}
+
+.actionlinkhome a:visited{
+	color: #000099;
+}
+
+.actionlinkhome a: hover {
+	color: #003399;
+}
+
+.textlinkwhite {
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: .7em; /* displayed at 7px */	
+}
+
+.textlinkwhite A:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.textlinkwhite A:visited{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.textlinkwhite A:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.disclaimer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: .7em; /* displayed at 7px */
+	text-align: center;
+	text-decoration: none;
+}
+
+.disclaimer a:link {
+	color: #666;
+	text-decoration: underline;
+}
+
+.disclaimer a:visited {
+	color: #666;
+	text-decoration: underline;
+}
+	
+.disclaimer a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+.citation {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-style: italic;
+	color: #000000;
+	text-decoration: none;
+ }
+
+.citation a:link {
+	color: #0000CC;
+	text-decoration: underline;
+}
+ 
+.citation a:visited {
+	color: #663399;
+	text-decoration: underline;
+}
+
+.citation a:hover {
+	color: #003399;
+	text-decoration: underline;
+}
+
+
+/* Design Elements */
+   
+.rule { /* Light purple horizontal rule */
+	border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #BBBBDD; 
+    margin: 0px;
+	padding: 0px;
+}
+
+.verticalrule { /* Light purple vertical rule */
+	margin: 0px;
+	background:    url(/img4/bbbbdd.gif) repeat-y; /* image repeats vertically */
+	height: 100%;
+}
+
+.verticalruleblue { /* Light purple vertical rule */
+	margin: 0px;
+	background:    url(/img4/bbbbddblue.gif) repeat-y; /* image repeats vertically */
+	height: 100%;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background: #BBBBDD;
+    margin: 0;  
+   }
+
+#picleft {
+	float: left; 
+	padding-bottom: 0px; 
+	position: relative;
+} 
+
+/* Lists and List Elements */
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 10px;
+}
+
+ul li {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */ 
+	background-image:     url(/img4/bullet.gif);
+	background-repeat: no-repeat;
+	background-position: 0 .6em;
+	padding-left: .6em;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+ul li a:link {
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #0000CC;
+	text-decoration: underline;
+}
+
+ul li a:visited {
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #663399;
+}
+
+ul li a:hover {
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #003399;
+}
+
+ul li ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 10px;
+}
+
+ul li p  {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1em; /* displayed at 8px */ 
+}
+
+ul li ul li  {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 1em; /* displayed at 8px */ 
+	background-image:     url(/img4/dash.gif);
+	background-repeat: no-repeat;
+	background-position: 0 .6em;
+	padding-left: .6em;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+
+ol  {
+	list-style-type: decimal;
+	list-style-position: outside;
+	padding: 0;
+	margin-left: 4em;
+}
+
+ol li  {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */ 
+	padding-left: 6px;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+
+/* Form elements */
+
+form {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: .8em; /* displayed at 8px */
+color: #000;
+padding: 0;
+}
+
+#hospitalhome {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 1em; /* displayed at 8px */
+color: #000;
+font-weight: bold;
+padding: 2px;
+background-color: #ccddee;
+}
+
+table#1pageform {
+	font: .9em Verdana, Arial, Helvetica, sans-serif;
+	background-color: #CCDDEE;
+	}
+
+table#1pageform #formcaption {
+	font: bold 1.2em Verdana, Arial, Helvetica, sans-serif;
+	color: #000066;
+	}
+	
+table#2pageform {
+	font: .9em Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	text-align: left;
+	border-right: 1px solid #000066;
+	border-left: 1px solid #000066;
+	border-bottom: 1px solid #000066;
+	width: 192;
+	}
+	
+#topline {
+	font-weight: bold;
+	}
+	
+#required {
+	color: #c09;
+	}
+
+.formtext  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em; /* displayed at 8px */
+	color: #000000;
+}
+
+.formtextbold  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em; /* within form displays at 8px */
+	color: #000000;
+	font-weight: bold;
+}
+
+.formbutton  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em; /* displays at 9px somehow*/
+	font-weight: bold;
+	color: #fff;
+	background: #000066;
+	border: 2px #E5E5E5 outset
+}
+
+.formbutton2  { /* use for mini doctor finder so it displays at correct font size*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.3em; /* displays at 8px in this table*/
+	font-weight: bold;
+	color: #fff;
+	background: #000066;
+	border: 2px #E5E5E5 outset
+}
+
+.topsearchbutton  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .7em; /* displayed at 8px */
+	font-weight: bold;
+	color: #000066;
+	background: #CCDDEE;
+	border: 2px #E5E5E5 outset;
+	margin-top: 1px;
+} 
+
+.topsearchfield  {
+	font: bold .7em Verdana, Arial, Helvetica, sans-serif;
+	height: auto;
+} 
+
+
+.mdfinderinput {
+	display: block;
+	align: left;
+	padding: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* Online ordering for Allina Labs */
+
+.ordertitle {
+	font-weight: bold; 
+	font-size: .8em; 
+	color: #099; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	voice-family: inherit
+}
+.orderheadingtop {
+	font-size: .8em; 
+	color: #666; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	voice-family: inherit
+}
+.orderdetailtitle {
+	font-size: .8em; 
+	color: #000; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	voice-family: inherit
+}
+.orderbottomborder {
+	border-bottom: #ccc 1px solid
+}
+
+/* Tour styles  */
+
+#tour {
+        text-align: left;
+        padding-top: 10px;
+}
+ 
+#tour table {
+        width: 450px;
+        background-color: #fff;
+        border: solid 1px #ccc;
+}
+ 
+#tour img {
+        border: solid 1px #666;
+}
+ 
+#tour #tourpic {
+        background-color: #eee;
+        text-align: center;
+        padding: 10px;
+}
+ 
+#tour #tourcaption {
+        padding: 10px;
+}
+ 
+#tour #controls {
+        padding: 5px;
+        text-align: center;
+}
+ 
+#tour #controls p {
+        color: #ccc;
+        padding: 5px;
+        border-top: solid 1px #eee;
+ 
+}
+ 
+#tour #controls a, #tour #controls a:visited{
+        text-decoration: none;
+        color: #06c;
+}
+ 
+#tour #count {
+        padding: 3px 6px 3px 3px;
+        background-color: #eee;
+        text-align: right;
+}
+ 
+#tour #count p {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: .8em;
+        color: #666;
+        text-align: right;
+}
+
+ /* Images */
+
+.whitelogo  {
+display: inline;
+}
+
+.blacklogo  {
+display: none;
+}
+
+
+ /* Special styles for Cambridge and OneClick -- should go away after final consolidation */
+A.cambridge:link {
+	FONT-SIZE: .8em; 
+      COLOR: #03c; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.cambridge:visited {
+	FONT-SIZE: .8em; 
+      COLOR: #639; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.cambridge:hover {
+	FONT-SIZE: .8em;  
+      COLOR: #c09; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.1click:link {
+	FONT-SIZE: .8em; 
+      COLOR: #03c; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.1click:visited {
+	FONT-SIZE: .8em; 
+      COLOR: #639; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.1click:hover {
+	FONT-SIZE: .8em; 
+      COLOR: #c09; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.1clickheader:link {
+	FONT-SIZE: .8em; 
+      COLOR: #03c; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.1clickheader:visited {
+	FONT-SIZE: .8em; 
+      COLOR: #639; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+}
+
+A.1clickheader:hover {
+	FONT-SIZE: .8em; 
+      COLOR: #c09; 
+      FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+      TEXT-DECORATION: none; 
+      voice-family: inherit
+} 
+
+.printonlylink {
+display: none;
+}
+
+/* Emagazine Styles */
+
+#demagmaintable  {
+	vertical-align: top;
+ 	padding: 0;
+ 	border: 1px solid #22aabb; 
+ }
+ 
+ #demagmaintable  td {
+	vertical-align: top;
+
+ }
+
+.volumetext  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	color: #4B5F8A;
+	font-weight: bold;
+	text-decoration: none; 
+	padding-right: 10px;
+}
+
+.purpleheader {
+	display:block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8em; /* displayed at 8px */
+	font-weight: bold;
+	text-align: left;
+	color: #000066;
+	background: url(/img4/purplegradient.gif) repeat-y; /* image repeats vertically */
+	margin: 5px 0px 10px 0px;
+} 
+
+#demagarticles {
+	vertical-align: top;
+ 	padding: 0;
+ 	border: 0;
+	border-right: 1px solid #bbbbdd;
+}
+
+#demagarticles td{
+	vertical-align: top;
+ 	padding: 5 10 5 10;
+ 	border-bottom: 1px solid #bbbbdd;
+ 
+}
+
+#demagsidetable  {
+	vertical-align: top;
+ 	padding: 0;
+ }
+ 
+ #demagbottomtable  {
+	vertical-align: top;
+ 	padding: 5 10 5 10;
+ 	border-top: 1px solid #bbbbdd;  
+ }
+ 
+#demagarticleslast {
+	vertical-align: top;
+ 	padding: 5 10 5 10;
+ 	border-bottom: 0px;
+	border-right: 1px solid #bbbbdd;  
+	
+}
+
+.emagdisclaimer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: .7em; /* displayed at 7px */
+}
+
+.emagdisclaimer a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 1em; /* displayed at 7px */
+	text-decoration: underline;
+}
+
+.emagdisclaimer a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	font-size: 1em; /* displayed at 7px */
+	text-decoration: underline;
+}
+
+#recipetable {
+ 	background-color: #CCEEFF;
+	border: 2px dashed #22aabb;
+	padding: 0 10 10 10
+}
+.recipename  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .9em; /* displayed at 9px */
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	line-height: normal;
+	padding: 5 0 0 0;
+	margin: 0;
+}
+
+#skip a, #skip a:hover, #skip a:visited  
+ { 
+ position:absolute; 
+ left:0px; 
+ top:-500px; 
+ width:1px; 
+ height:1px; 
+ overflow:hidden;
+ } 
+  
+ #skip a:active 
+ { 
+ position:static; 
+ width:auto; 
+ height:auto; 
+ }
+
+acronym {
+  border-bottom: 1px dotted black;
+}
+
+/* for adding captions to photos */
+
+div.figure {
+  float: right;
+  width: 280;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+div.figure p {
+  text-align: center; 
+/*  font-style: italic; */
+  font-size: .7em;
+  text-indent: 0;
+} 
+#russian { font-family: TransCyrillic, sans-serif; }
+
+/*styles for positioning of Find a... and Take me to... links in Consumer Care Series*/
+.Sidelinks {
+	float: right;
+	width: 164px;
+	margin: .5em .5em .5em 1em;
+	padding: 0.5em;
+}
+.Sidelinks p {
+	margin: 0px 0px 4px 0px;
+}
+.Takemeto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	float: right;
+	width: 190px;
+	margin: 1.5em 0em 0em 0em;
+	padding: 0.25em;
+	border: solid 1px #000066;
+}
+.TakemetoTop {
+	background: #BBBBDD;
+	font-size: 80%;
+	border-bottom: solid 1px #000066;
+	text-align: center;
+	font-weight: bold;
+	color: #000066;
+}
+.Takemeto p {
+	margin: 0px 0px 7px 0px;
+}

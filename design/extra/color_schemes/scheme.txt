@@ -1,0 +1,37 @@
+olive:
+	#CCFF00
+	#8FB300
+	#F2FFBF
+	#E6FF80
+
+orang:
+	#FF8000
+	#B35A00
+	#FFDFBF
+	#FFC080
+
+green:
+	#00CC00
+	#008F00
+	#BFFFBF
+	#80FF80
+
+scheme2:
+	#5C73B8
+	#405080
+	#CFD4E6
+	#3054BF
+	
+	#E69473
+	#805240
+	#E6D5CF
+	#BF5930
+	
+	#E6D673
+	#807740
+	#E6E2CF
+	#BFAC30
+
+
+
+

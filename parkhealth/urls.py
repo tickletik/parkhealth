@@ -4,7 +4,7 @@ from django.conf.urls.defaults import *
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('parkhealth.app_main.views',
+urlpatterns = patterns('main.views',
     (r'^$', 'index'),
     (r'^dept/(?P<page>\w+)/$', 'department'),
 

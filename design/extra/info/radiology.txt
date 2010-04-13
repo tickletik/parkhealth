@@ -1,0 +1,36 @@
+Radiology : Imaging Modalities
+
+	Services:
+		Pain X-Ray
+		Mamogram
+		Dexa Scan (Bone Mineral Density)
+
+		Sonography:
+			OB-GYN
+			Cardiac
+			Small Parts
+			Vascular
+
+		CT-Scan (head and total body)
+		MRI
+
+		Nuclear:
+			Thyroid Scan
+			Bone Scan
+			Nuclear Cardiology
+
+
+	Equipment:
+		X-Ray
+		Sonogram
+		Nuclear Machine
+		Dexa Scan
+		MRI
+		CT-SCAN
+
+	Staff:
+		Charles Demarco
+		Charles Cooper
+
+		
+			
