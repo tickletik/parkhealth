@@ -1,1 +1,0 @@
-wsgi/mac.wsgi
