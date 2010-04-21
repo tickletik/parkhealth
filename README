@@ -26,5 +26,36 @@ WEBFACTION NOTES:
 
 
 
+layout:
 
+	~/repository/production
+	~/repository/development
+
+	~/repository/production/scripts
+	~/repository/production/templates
+	~/repository/production/apps
+	~/repository/production/parkhealth
+
+	~/repository/development/scripts
+	~/repository/development/templates
+	~/repository/development/apps
+	~/repository/development/parkhealth
+
+	~/webapps/media_production
+	~/webapps/media_development
+
+	~/webapps/django_production
+	~/webapps/django_development
+
+	~/webapps/django_production/scripts
+	~/webapps/django_production/scripts/wsgi/webfaction/production.wsgi
+	~/webapps/django_production/templates
+	~/webapps/django_production/parkhealth
+	~/webapps/django_production/lib/apps
+
+	~/webapps/django_development/scripts
+	~/webapps/django_development/scripts/wsgi/webfaction/development.wsgi
+	~/webapps/django_development/templates
+	~/webapps/django_development/parkhealth
+	~/webapps/django_development/lib/apps
 
