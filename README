@@ -1,0 +1,16 @@
+note:
+
+WEBFACTION NOTES:
+media is going to be located under either
+	webapps/media_production
+	webapps/media_development
+
+now I could have located it under webapps/media/production but the problem with that is that I'd end up giving potential jerks a chance to know that they are in the production or development server, something I don't want to do.
+
+The problem is that webfaction doesn't let me symlink direction to repository/production/media, which means I have to
+
+ln -s ~/repository/production/media/* ~/webapps/media_production
+
+Which has me symlinking to everything in the media directory.  But if I add on or get rid of a folder, file, whatever, UNTIL I SYMLINK AGAIN, THAT FILE WILL NOT DISPLAY IN MEDIA_PRODUCTION
+
+So keep in mind that you must always symlink when doing anything.  Might be a good idea to run a script of some sort for exactly this purpose
